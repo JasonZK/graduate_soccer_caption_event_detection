@@ -901,7 +901,10 @@ def divid_rows(location, big_temp_result, team_y1, team_y2, team_x):
 def get_frames(video_dir):
     get = 0
     miss = 0
-    total_num = 0
+    gt_total_goal = 0
+    get_total_goal = 0
+    get_right_total_goal = 0
+
     more = 0
     # with open('video_6_score_change.json', 'r') as fd:
     #     Video_Score_dic = json.load(fd)
@@ -925,9 +928,13 @@ def get_frames(video_dir):
                             divid_index = two_team_names.find(" - ")
                             team1_name = two_team_names[:divid_index - 2]
                             team2_name = two_team_names[divid_index + 5:]
-                            # 将从文件名中得到的队名加入到队名库中
+                            # 将从文件名中得到的队名，以及队名的拆分 加入到队名库中
                             team_name.append(team1_name)
                             team_name.append(team2_name)
+                            block_team1_names = team1_name.split(' ')
+                            block_team2_names = team2_name.split(' ')
+                            team_name.extend(block_team1_names)
+                            team_name.extend(block_team2_names)
                             for game_root, _, videos in os.walk(game_path):
                                 for video_index in videos:
                                     video_index1 = video_index.split('_')
@@ -937,12 +944,11 @@ def get_frames(video_dir):
                                     video_name = match + ' ' + game_split[0] + ' ' + game_split[-1] + ' ' + \
                                                  video_index1[0]
 
-
-
                                     video_path = os.path.join(game_path, video_index)
                                     videoCap = cv.VideoCapture(video_path)
-
                                     videoClip = VideoFileClip(video_path)
+
+
 
                                     frame_height = videoCap.get(cv.CAP_PROP_FRAME_HEIGHT)
                                     frame_width = videoCap.get(cv.CAP_PROP_FRAME_WIDTH)
@@ -953,13 +959,27 @@ def get_frames(video_dir):
                                     big_w_index = int(frame_width / 2)
                                     x1_big_center = big_w_index - 50
                                     x2_big_center = big_w_index + 50
-
                                     frame_count = videoCap.get(cv.CAP_PROP_FRAME_COUNT)
+
+                                    labels = json.load(open(os.path.join(game_path, "Labels-v2.json")))
+                                    gt_goal_frame_indexes = []
+                                    for annotation in labels["annotations"]:
+                                        if annotation["label"] == "Goal":
+                                            label_time = annotation["gameTime"]
+                                            goal_minutes = int(time[-5:-3])
+                                            goal_seconds = int(time[-2::])
+                                            gt_frame = fps * (goal_seconds + 60 * goal_minutes)
+                                            gt_goal_frame_indexes.append(gt_frame)
+
+                                    gt_total_goal += len(gt_goal_frame_indexes)
+
                                     print("  ")
                                     print(
                                         "--------------------------------------------------------------------------------------------------------------")
                                     print("video:{}".format(video_name))
-                                    print("视频属性：   总帧数：{}   FPS:{}   width:{}   height:{}".format(frame_count, fps, frame_width, frame_height))
+                                    print("视频属性：   总帧数：{}   FPS:{}   width:{}   height:{}".format(frame_count, fps,
+                                                                                                  frame_width,
+                                                                                                  frame_height))
                                     init_candidate = defaultdict(int)
                                     player_name_dic = defaultdict(int)
                                     score_time_dic = defaultdict(int)
@@ -1313,6 +1333,9 @@ def get_frames(video_dir):
                                     time_line_texts = {}
                                     team_order = defaultdict(list)
 
+                                    get_total_goal += len(time_line)
+
+                                    get_right_goal_frame_indexes = []
                                     print("------Generating goal vides------")
                                     print("------生成进球视频片段------")
                                     for key in time_line_sorted:
@@ -1371,6 +1394,36 @@ def get_frames(video_dir):
                                                     0] + '\' ' + name + " from " + team + " shot a goal in added time"
                                         time_line_texts[time_line_text] = team
                                         # print("At {}\', {} from {} shot a goal!".format(key[0], name, team))
+
+                                        goal_time_minute = key[0]
+                                        int_goal_time = eval(goal_time_minute)
+                                        if video_type == 'second' and int_goal_time < 45:
+                                            print(
+                                                "goal time {} out of this video, this video is a second part of tha game!".format(
+                                                    int_goal_time))
+                                        else:
+                                            if int_goal_time < 45:
+                                                time_ref = time_refer[0]
+                                            else:
+                                                time_ref = time_refer[1]
+                                            ref_frame_index = time_ref[0]
+                                            ref_minute = int(time_ref[1].split(':')[0])
+                                            if ref_minute < int_goal_time:
+                                                goal_frame_index = int(
+                                                    ref_frame_index + (int_goal_time - ref_minute) * 60 * fps)
+                                            else:
+                                                goal_frame_index = int(
+                                                    ref_frame_index - (ref_minute - int_goal_time) * 60 * fps)
+
+                                            if goal_frame_index < 1 or goal_frame_index >= frame_count:
+                                                print("goal time error! goal time:{}".format(goal_time_minute))
+                                            else:
+                                                for gt_goal_frame_index in gt_goal_frame_indexes:
+                                                    if abs(goal_frame_index - gt_goal_frame_index) < (fps * 60 * 2):
+                                                        get_right_goal_frame_indexes.append(str(gt_goal_frame_index) + " - " + str(goal_frame_index))
+
+                                                get_right_total_goal += len(get_right_goal_frame_indexes)
+
                                         if if_gen_video:
                                             gen_goal_video(video_name, videoCap, videoClip, video_type, time_refer,
                                                            key[0], name, team,
@@ -1446,6 +1499,11 @@ def get_frames(video_dir):
                                     for text in list(time_line_texts.keys()):
                                         print(text)
 
+                                    print(" ")
+                                    # for gt_goal_frame_index in gt_goal_frame_indexes:
+                                    print("真实进球时间（帧号）：{}".format(gt_goal_frame_indexes))
+                                    print("检测正确结果：{}".format(get_right_goal_frame_indexes))
+                                    print("GT : {}， 共找到：{}， 其中正确的：{}".format(len(gt_goal_frame_indexes), len(time_line), len(get_right_goal_frame_indexes)))
                                     print("####################################################")
 
                                     time2 = time.time()
@@ -1456,7 +1514,7 @@ def get_frames(video_dir):
                 # with open('scores_3' + '.json', 'w') as fd:
                 #     json.dump(SCORES, fd)
 
-    # print("total_num:{}   get:{}   miss:{}  more:{}".format(total_num, get, miss, more))
+    print("所有真实得分数:{}   检测到的得分数:{}   检测正确的得分数:{}  ".format(gt_total_goal, get_total_goal, get_right_total_goal))
 
 
 get_frames(video_dir=VIDEO_DIR)
