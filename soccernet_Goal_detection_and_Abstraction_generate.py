@@ -920,6 +920,14 @@ def get_frames(video_dir):
                         for game in games:
                             game_path = os.path.join(year_path, game)
                             game_split = game.split(' ')
+                            # 根据文件名，提取出队伍名字
+                            two_team_names = game[19:]
+                            divid_index = two_team_names.find(" - ")
+                            team1_name = two_team_names[:divid_index - 2]
+                            team2_name = two_team_names[divid_index + 5:]
+                            # 将从文件名中得到的队名加入到队名库中
+                            team_name.append(team1_name)
+                            team_name.append(team2_name)
                             for game_root, _, videos in os.walk(game_path):
                                 for video_index in videos:
                                     video_index1 = video_index.split('_')
@@ -928,6 +936,8 @@ def get_frames(video_dir):
                                     time1 = time.time()
                                     video_name = match + ' ' + game_split[0] + ' ' + game_split[-1] + ' ' + \
                                                  video_index1[0]
+
+
 
                                     video_path = os.path.join(game_path, video_index)
                                     videoCap = cv.VideoCapture(video_path)
