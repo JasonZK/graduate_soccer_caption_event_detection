@@ -1,7 +1,7 @@
 # 检测进球得分事件，生成相应的文字摘要和视频摘要
 # 需要提前有该视频的回放镜头json文件
 import os
-
+# -*- coding:utf-8 -*-
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 import re
 from paddleocr import PaddleOCR, draw_ocr
@@ -73,7 +73,19 @@ for line in f:
     team_name.append(line)
 
 
-# result = process.extract(a, team_name, scorer=fuzz.token_set_ratio, limit=5)
+import logging
+
+#默认的warning级别，只输出warning以上的
+#使用basicConfig()来指定日志级别和相关信息
+
+logging.basicConfig(level=logging.DEBUG #设置日志输出格式
+                    ,filename="log/Goal_detection.log" #log日志输出的文件位置和文件名
+                    ,filemode="w+" #文件的写入格式，w为重新写入文件，默认是追加
+                    ,format="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s" #日志输出的格式
+                    # -8表示占位符，让输出左对齐，输出长度都为8位
+                    ,datefmt="%Y-%m-%d %H:%M:%S" #时间输出的格式
+                    )
+
 
 def print_json(data):
     print(json.dumps(data, sort_keys=True, indent=4, separators=(', ', ': '), ensure_ascii=False))
@@ -134,7 +146,7 @@ def game_time(videoCap, frame_count, small_h_index, fps):
             if result:
                 game_time = re.findall("\d\d:\d\d", result)
                 if game_time:
-                    # print("frames: {}    time: {}".format(i1, game_time))
+                    # logging.info("frames: {}    time: {}".format(i1, game_time))
                     time1_candidate.append((i1, game_time[0]))
                     if len(time1_candidate) >= 3:
                         ii0, game_time0 = time1_candidate[0]
@@ -154,17 +166,17 @@ def game_time(videoCap, frame_count, small_h_index, fps):
 
     time1_fen = int(time_12[0][1].split(':')[0])
     time2_fen = int(time_12[1][1].split(':')[0])
-    # print("finished finding the game time!*****************************************************************")
+    # logging.info("finished finding the game time!*****************************************************************")
     if time2_fen < 45:
         # shang
-        print("本视频为上半场比赛")
+        logging.info("本视频为上半场比赛")
         return 'first', time_12
     elif time1_fen > 45:
         # xia
-        print("本视频为下半场比赛")
+        logging.info("本视频为下半场比赛")
         return 'second', time_12
     else:
-        print("本视频为全场比赛")
+        logging.info("本视频为全场比赛")
         return 'full', time_12
 
 
@@ -176,7 +188,7 @@ def gen_goal_video(video_name, videoCap, videoClip, video_type, time_refer, goal
     frame_count = int(videoCap.get(cv.CAP_PROP_FRAME_COUNT))
     int_goal_time = eval(goal_time)
     if video_type == 'second' and int_goal_time < 45:
-        print("goal time {} out of this video, this video is a second part of tha game!".format(int_goal_time))
+        logging.info("goal time {} out of this video, this video is a second part of tha game!".format(int_goal_time))
     else:
         if int_goal_time < 45:
             time_ref = time_refer[0]
@@ -190,7 +202,7 @@ def gen_goal_video(video_name, videoCap, videoClip, video_type, time_refer, goal
             goal_frame_index = int(ref_frame_index - (ref_minute - int_goal_time) * 60 * fps)
 
         if goal_frame_index < 1 or goal_frame_index >= frame_count:
-            print("generate video failed! goal time:{}".format(goal_time))
+            logging.info("generate video failed! goal time:{}".format(goal_time))
         else:
             fourcc = cv.VideoWriter_fourcc('m', 'p', '4', 'v')
             video_width, video_height = frame_width, frame_height
@@ -242,7 +254,7 @@ def gen_goal_video(video_name, videoCap, videoClip, video_type, time_refer, goal
             #
             #         videoWriter.write(temp_jpgframe)
             # videoWriter.release()
-            print("save video to {}".format(save_path))
+            logging.info("save video to {}".format(save_path))
 
 
 def check_line2(result_line, LorR, player_name_dic, score_time_dic, i, Player_Time_list, big_flag):
@@ -636,7 +648,7 @@ def check_line(result_line, LorR, player_name_dic, big_candidate, score_time_dic
         add_number = ''
         for number_one in number_list:
             # if number_one == '3':
-            #     print("a")
+            #     logging.info("a")
             num_start = lline.strr.find(number_one)  # 0
             end = num_start + len(number_one) - 1
             if end + 1 < len(lline.strr) and lline.strr[end + 1].isalpha():
@@ -683,7 +695,7 @@ def check_line(result_line, LorR, player_name_dic, big_candidate, score_time_dic
                 big_flag = True
 
         Player_Time_list.append(one_playertime)
-        # print("source string: {}   check players name: {}  goal_time: {}  frame:{}  goaltime:{}".format(
+        # logging.info("source string: {}   check players name: {}  goal_time: {}  frame:{}  goaltime:{}".format(
         #     lline.strr, player_name, big_candidate[player_name], i, one_playertime.goaltime))
         del one_playertime
         continue
@@ -932,10 +944,10 @@ def get_frames(video_dir):
                 x2_big_center = big_w_index + 50
 
                 frame_count = videoCap.get(cv.CAP_PROP_FRAME_COUNT)
-                print("  ")
-                print(
+                logging.info("  ")
+                logging.info(
                     "--------------------------------------------------------------------------------------------------------------")
-                print("video:{}".format(video_name))
+                logging.info("video:{}".format(video_name))
 
 
 
@@ -995,8 +1007,8 @@ def get_frames(video_dir):
                 # 遍历视频
                 while i < frame_count:
                     # if i > 73499:
-                    #     print("a")
-                    # print("deal with {}".format(i))
+                    #     logging.info("a")
+                    # logging.info("deal with {}".format(i))
 
                     # 评估候选比分
                     # 获取ocr第i帧的直接结果temp_result， 以及字符串连接后的result
@@ -1009,7 +1021,7 @@ def get_frames(video_dir):
                     right_line = []
 
                     if big_result:
-                        # print(big_result, i)
+                        # logging.info(big_result, i)
                         # 首先检测是否存在两个队名，同时将合适位置的字符串按左右队伍分类
                         two_teams, left_big_temp_result, right_big_temp_result, left_team, left_team_x, \
                         right_team, right_team_x = check_teams(big_temp_result, big_w_index, frame_width, left_team, left_team_x, right_team, right_team_x)
@@ -1021,8 +1033,8 @@ def get_frames(video_dir):
                             save_a_frame(i, videoCap, big_h_index, video_name)
 
                             # # doc = nlp(big_result)
-                            # # print(big_result)
-                            # # print([(ent.text, ent.label_) for ent in doc.ents])
+                            # # logging.info(big_result)
+                            # # logging.info([(ent.text, ent.label_) for ent in doc.ents])
 
                             # 接下来分别对 左候选集 和 右候选集 进行分析处理
                             if left_big_temp_result:
@@ -1166,8 +1178,8 @@ def get_frames(video_dir):
                 time_goal_event = []
                 time_line = {}
 
-                print("##################### video:{}  goal events ####################".format(video_index1[1]))
-                print("### showed by players ###")
+                logging.info("##################### video:{}  goal events ####################".format(video_index1[1]))
+                logging.info("### showed by players ###")
                 for i in range(nn):
                     if Player_Time_list[i].use:
                         name = Player_Time_list[i].playername
@@ -1175,9 +1187,9 @@ def get_frames(video_dir):
                             team = left_team
                         else:
                             team = right_team
-                        # print("name:{}  team:{}".format(name, team))
-                        # print("姓名:{}  队伍:{}".format(name, team))
-                        # print(Player_Time_list[i].goaltime)
+                        # logging.info("name:{}  team:{}".format(name, team))
+                        # logging.info("姓名:{}  队伍:{}".format(name, team))
+                        # logging.info(Player_Time_list[i].goaltime)
 
                         goal_num_player = len(Player_Time_list[i].goaltime)
                         if goal_num_player == 1:
@@ -1185,18 +1197,18 @@ def get_frames(video_dir):
                             goal_type = Player_Time_list[i].goaltime[key].split('_')[1]
                             time_line[key] = name + '_' + team + '_' + goal_type
                             if goal_type == 'N':
-                                # print("{} from {} shot a goal at {}\'".format(name, team, key))
-                                print("来自 {} 的 {} 在第 {} 分钟射入一球！\'".format(team, name, key))
+                                # logging.info("{} from {} shot a goal at {}\'".format(name, team, key))
+                                logging.info("来自 {} 的 {} 在第 {} 分钟射入一球！\'".format(team, name, key))
                             elif goal_type == 'P':
-                                # print("{} from {} shot a goal at {}\', and is a penalty kick!".format(name, team, key))
-                                print("来自 {} 的 {} 在第 {} 分钟点球得分！\'".format(team, name, key))
+                                # logging.info("{} from {} shot a goal at {}\', and is a penalty kick!".format(name, team, key))
+                                logging.info("来自 {} 的 {} 在第 {} 分钟点球得分！\'".format(team, name, key))
                             elif goal_type == 'OG':
-                                # print("{} from {} shot a OWN GOAL at {}\', what a pity!".format(name, team, key))
-                                print("来自 {} 的 {} 在第 {} 分钟造成一粒乌龙球，真可惜！\'".format(team, name, key))
+                                # logging.info("{} from {} shot a OWN GOAL at {}\', what a pity!".format(name, team, key))
+                                logging.info("来自 {} 的 {} 在第 {} 分钟造成一粒乌龙球，真可惜！\'".format(team, name, key))
                             elif goal_type == 'add':
-                                # print("{} from {} shot a goal at {}\' in added time".format(name, team, key))
-                                print("来自 {} 的 {} 在伤停补时阶段第 {} 分钟射入一球！\'".format(team, name, key))
-                            # print("**********************************************************")
+                                # logging.info("{} from {} shot a goal at {}\' in added time".format(name, team, key))
+                                logging.info("来自 {} 的 {} 在伤停补时阶段第 {} 分钟射入一球！\'".format(team, name, key))
+                            # logging.info("**********************************************************")
                         elif goal_num_player == 2:
                             keys = list(Player_Time_list[i].goaltime.keys())
                             goal_type_0 = Player_Time_list[i].goaltime[keys[0]].split('_')[1]
@@ -1204,15 +1216,15 @@ def get_frames(video_dir):
                             time_line[keys[0]] = name + '_' + team + '_' + goal_type_0
                             time_line[keys[1]] = name + '_' + team + '_' + goal_type_1
 
-                            # print(
+                            # logging.info(
                             #     "梅开二度! {} from {} shot two goals! One is at {}\', another is at {}\'".format(name, team,
                             #                                                                                  keys[0],
                             #                                                                                  keys[1]))
-                            print(
+                            logging.info(
                                 "梅开二度! 来自 {} 的 {} 分别在比赛第 {} 分钟和第 {} 分钟射门得分！".format(team, name,
                                                                                     keys[0],
                                                                                     keys[1]))
-                            # print("**********************************************************")
+                            # logging.info("**********************************************************")
                         elif goal_num_player == 3:
                             keys = list(Player_Time_list[i].goaltime.keys())
                             goal_type_0 = Player_Time_list[i].goaltime[keys[0]].split('_')[1]
@@ -1221,16 +1233,16 @@ def get_frames(video_dir):
                             time_line[keys[0]] = name + '_' + team + '_' + goal_type_0
                             time_line[keys[1]] = name + '_' + team + '_' + goal_type_1
                             time_line[keys[2]] = name + '_' + team + '_' + goal_type_2
-                            # print(
+                            # logging.info(
                             #     "帽子戏法! {} from {} shot three goals! first is at {}\', second is at {}\', and the "
                             #     "third is at {}\'".format(name, team,
                             #                               keys[0],
                             #                               keys[1], keys[2]))
-                            print(
+                            logging.info(
                                 "帽子戏法! 来自 {} 的 {} 分别在比赛第 {} 分钟、第 {} 分钟，和第 {} 分钟射门得分！".format(team, name,
                                                                                              keys[0],
                                                                                              keys[1], keys[2]))
-                            # print("**********************************************************")
+                            # logging.info("**********************************************************")
                         elif goal_num_player == 4:
                             keys = list(Player_Time_list[i].goaltime.keys())
                             goal_type_0 = Player_Time_list[i].goaltime[keys[0]].split('_')[1]
@@ -1242,7 +1254,7 @@ def get_frames(video_dir):
                             time_line[keys[2]] = name + '_' + team + '_' + goal_type_2
                             time_line[keys[3]] = name + '_' + team + '_' + goal_type_3
 
-                            print(
+                            logging.info(
                                 "大四喜! 来自 {} 的 {} 分别在比赛第 {} 分钟、第 {} 分钟、第 {} 分钟，和第 {} 分钟射门得分！".format(team, name,
                                                                                              keys[0],
                                                                                              keys[1], keys[2], keys[3]))
@@ -1258,7 +1270,7 @@ def get_frames(video_dir):
                             time_line[keys[2]] = name + '_' + team + '_' + goal_type_2
                             time_line[keys[3]] = name + '_' + team + '_' + goal_type_3
                             time_line[keys[4]] = name + '_' + team + '_' + goal_type_4
-                            print(
+                            logging.info(
                                 "五子登科! 来自 {} 的 {} 分别在比赛第 {} 分钟、第 {} 分钟、第 {} 分钟、第 {} 分钟，和第 {} 分钟射门得分！".format(team, name,
                                                                                                     keys[0],
                                                                                                     keys[1], keys[2],
@@ -1272,8 +1284,8 @@ def get_frames(video_dir):
                 time_line_texts = {}
                 team_order = defaultdict(list)
 
-                print("------Generating goal vides------")
-                print("------生成进球视频片段------")
+                logging.info("------Generating goal vides------")
+                logging.info("------生成进球视频片段------")
                 for key in time_line_sorted:
                     name = key[1].split('_')[0]
                     team = key[1].split('_')[1]
@@ -1324,11 +1336,11 @@ def get_frames(video_dir):
                                 0] + '\' ' + name + " shot a goal!"
                             video_text = "At " + key[0] + '\' ' + name + " from " + team + " shot a goal in added time"
                     time_line_texts[time_line_text] = team
-                    # print("At {}\', {} from {} shot a goal!".format(key[0], name, team))
+                    # logging.info("At {}\', {} from {} shot a goal!".format(key[0], name, team))
                     if if_gen_video:
                         gen_goal_video(video_index1[1], videoCap, videoClip, video_type, time_refer, key[0], name, team,
                                        playback_index, video_output_path, video_text)
-                print("------ done ------")
+                logging.info("------ done ------")
 
                 left_score = len(team_order[left_team])
                 right_score = len(team_order[right_team])
@@ -1390,24 +1402,24 @@ def get_frames(video_dir):
                 m4 = "以下是得分详情："
                 summary.append(m4)
                 for sens in summary:
-                    print(sens)
+                    logging.info(sens)
 
-                print("### showed by time line ###")
-                print("               {}                     time                     {}".format(left_team, right_team))
+                logging.info("### showed by time line ###")
+                logging.info("               {}                     time                     {}".format(left_team, right_team))
                 for text in list(time_line_texts.keys()):
-                    print(text)
+                    logging.info(text)
 
-                print("####################################################")
+                logging.info("####################################################")
 
                 time2 = time.time()
-                print("time for this video:{}".format(time2 - time1))
+                logging.info("time for this video:{}".format(time2 - time1))
 
                 # SCORES[video_index] = score_record
 
                 # with open('scores_3' + '.json', 'w') as fd:
                 #     json.dump(SCORES, fd)
 
-    # print("total_num:{}   get:{}   miss:{}  more:{}".format(total_num, get, miss, more))
+    # logging.info("total_num:{}   get:{}   miss:{}  more:{}".format(total_num, get, miss, more))
 
 
 get_frames(video_dir=VIDEO_DIR)
