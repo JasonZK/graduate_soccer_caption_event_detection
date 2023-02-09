@@ -61,7 +61,7 @@ EVENT_DIR = "D:/dataset/event"
 # Output_big_frames_path = "D:/dataset/A_graduate_experiment/big_frames_19Asia/"
 
 VIDEO_DIR = "D:/dataset/SoccerNet/SoccerNet_test_hq/"
-Output_big_frames_path = "D:/dataset/A_graduate_experiment/big_frames_SoccerNet/"
+Output_big_frames_path = "D:/dataset/A_graduate_experiment/big_frames_SoccerNet2-9/"
 makedir(Output_big_frames_path)
 
 video_output_path = "D:/dataset/output_goal_video/"
@@ -87,7 +87,7 @@ import logging
 #使用basicConfig()来指定日志级别和相关信息
 
 logging.basicConfig(level=logging.DEBUG #设置日志输出格式
-                    ,filename="log/Goal_detection.log" #log日志输出的文件位置和文件名
+                    ,filename="log/Goal_detection2-9.log" #log日志输出的文件位置和文件名
                     ,filemode="w+" #文件的写入格式，w为重新写入文件，默认是追加
                     ,format="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s" #日志输出的格式
                     # -8表示占位符，让输出左对齐，输出长度都为8位
@@ -316,7 +316,7 @@ def check_line2(result_line, LorR, player_name_dic, score_time_dic, i, Player_Ti
                         ii += 1
                     else:
                         start_str = ii
-                        while ii < len_line and (str_line[ii].isalpha() or str_line[ii] == ' '):
+                        while ii < len_line and (str_line[ii].isalpha() or str_line[ii] == ' ' or str_line[ii] == '.'):
                             ii += 1
                         end_str = ii
                         # 之前有一个完整的球员 时间记录了，说明是一行两个球员记录
@@ -437,7 +437,7 @@ def check_line2(result_line, LorR, player_name_dic, score_time_dic, i, Player_Ti
                         ii += 1
                     else:
                         start_str = ii
-                        while ii < len_line and (str_line[ii].isalpha() or str_line[ii] == ' '):
+                        while ii < len_line and (str_line[ii].isalpha() or str_line[ii] == ' ' or str_line[ii] == '.'):
                             ii += 1
                         end_str = ii
 
@@ -506,7 +506,8 @@ def check_line2(result_line, LorR, player_name_dic, score_time_dic, i, Player_Ti
                     pre_mode = "score"
 
                 elif str_line[ii] == '+':
-                    start_str = ii + 1
+                    ii += 1
+                    start_str = ii
                     while ii < len_line and str_line[ii].isdigit():
                         ii += 1
                     end_str = ii
@@ -926,6 +927,8 @@ def get_frames(video_dir):
 
     for root, matches, files in os.walk(video_dir):
         for match in matches:
+            if match == "england_epl":
+                continue
             match_path = os.path.join(video_dir, match)
             for match_root, years, ffiles in os.walk(match_path):
                 for year in years:
@@ -954,6 +957,8 @@ def get_frames(video_dir):
                                     time1 = time.time()
                                     video_name = match + ' ' + game_split[0] + ' ' + game_split[-1] + ' ' + \
                                                  video_index1[0]
+
+
 
                                     video_path = os.path.join(game_path, video_index)
                                     videoCap = cv.VideoCapture(video_path)
@@ -1040,9 +1045,9 @@ def get_frames(video_dir):
                                     find_flag = False
                                     MAX_INT = sys.maxsize
 
-                                    # i = int(frame_count * (7 / 10))
+                                    i = int(frame_count * (6 / 10))
                                     # i = int(frame_count * (99 / 100))
-                                    i = 0
+                                    # i = 0
                                     # i = 58292
 
                                     # 遍历视频
