@@ -1,0 +1,1093 @@
+2023-02-09 21:47:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 21:47:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 21:47:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2014-11-04 Leverkusen 1
+2023-02-09 21:47:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 21:47:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2014-11-04 Leverkusen 1  goal events ####################
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Zenit和Leverkusen。
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Zenit0比0战平Leverkusen。
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Zenit                     time                     Leverkusen
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[]
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 0， 共找到：0， 其中正确的：0
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:115.59730648994446
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2014-11-04 Leverkusen 2
+2023-02-09 21:49:29 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：70475.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 21:49:31 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2014-11-04 Leverkusen 2  goal events ####################
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Zenit 的 RONDON  在第 89 分钟射入一球！'
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1283 line - 梅开二度! 来自 Leverkusen 的 MIN  分别在比赛第 68 分钟和第 73 分钟射门得分！
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Zenit和Leverkusen。
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Leverkusen2比1小胜Zenit，双方贡献了一场精彩的比赛！
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Zenit                     time                     Leverkusen
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 68' MIN  shot a goal
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 73' MIN  shot a goal
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - RONDON  shot a goal At 89'
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[33825.0, 40650.0, 64775.0]
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['33825.0 - 35380', '40650.0 - 42880', '64775.0 - 66880']
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 3， 共找到：3， 其中正确的：3
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 21:53:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:267.2566912174225
+2023-02-09 21:53:57 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 21:53:57 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 21:53:57 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2015-02-24 Barcelona 1
+2023-02-09 21:53:57 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67750.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 21:53:58 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 21:54:13 - root - WARNING   - process.py : 83 line - Applied processor reduces input query to empty string, all comparisons will have score 0. [Query: '***']
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2015-02-24 Barcelona 1  goal events ####################
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1283 line - 梅开二度! 来自 Barcelona 的 SUAREZ  分别在比赛第 16 分钟和第 30 分钟射门得分！
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Man City和Barcelona。
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Barcelona2比0大幅领先Man City。
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Man City                     time                     Barcelona
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 16' SUAREZ  shot a goal
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 30' SUAREZ  shot a goal
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[23175.0, 44525.0, 44525.0]
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['23175.0 - 24050', '44525.0 - 45050', '44525.0 - 45050']
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 3， 共找到：2， 其中正确的：3
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:416.75080370903015
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2015-02-24 Barcelona 2
+2023-02-09 22:00:53 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：74325.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:00:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 22:01:02 - root - WARNING   - process.py : 83 line - Applied processor reduces input query to empty string, all comparisons will have score 0. [Query: '***']
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2015-02-24 Barcelona 2  goal events ####################
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Man City 的 AGUERO  在第 69 分钟射入一球！'
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1283 line - 梅开二度! 来自 Barcelona 的 SUAREZ  分别在比赛第 16 分钟和第 30 分钟射门得分！
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 16 out of this video, this video is a second part of tha game!
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 30 out of this video, this video is a second part of tha game!
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Man City和Barcelona。
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Barcelona2比1小胜Man City，双方贡献了一场精彩的比赛！
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Man City                     time                     Barcelona
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 16' SUAREZ  shot a goal
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 30' SUAREZ  shot a goal
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - AGUERO  shot a goal At 69'
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[35050.0, 35050.0]
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['35050.0 - 36960', '35050.0 - 36960']
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：3， 其中正确的：2
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:316.73301339149475
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2015-09-29 Zagreb 1
+2023-02-09 22:06:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:06:12 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2015-09-29 Zagreb 1  goal events ####################
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[19250.0, 30950.0, 35625.0, 40225.0]
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 4， 共找到：0， 其中正确的：0
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:08:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:118.44933605194092
+2023-02-09 22:08:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:08:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:08:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2015-09-29 Zagreb 2
+2023-02-09 22:08:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:08:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2015-09-29 Zagreb 2  goal events ####################
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[14525.0]
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:120.64225816726685
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2015-11-03 SG 1
+2023-02-09 22:10:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67800.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:10:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2015-11-03 SG 1  goal events ####################
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Real Madrid 的 NACHO  在第 35 分钟射入一球！'
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Real Madrid和PARIS SAINT-GERMAIN。
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Real Madrid1比0领先PARIS SAINT-GERMAIN。
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Real Madrid                     time                     PARIS SAINT-GERMAIN
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - NACHO  shot a goal At 35'
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[51775.0]
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['51775.0 - 52490']
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：1， 其中正确的：1
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:15:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:327.60445976257324
+2023-02-09 22:15:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:15:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:15:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2015-11-03 SG 2
+2023-02-09 22:15:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：71050.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:15:38 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2015-11-03 SG 2  goal events ####################
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Real Madrid 的 NACHO  在第 35 分钟射入一球！'
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 35 out of this video, this video is a second part of tha game!
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Real Madrid和PARIS SAINT-GERMAIN。
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Real Madrid1比0小胜PARIS SAINT-GERMAIN，双方贡献了一场精彩的比赛！
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Real Madrid                     time                     PARIS SAINT-GERMAIN
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - NACHO  shot a goal At 35'
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[]
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 0， 共找到：1， 其中正确的：0
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:480.2090332508087
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2016-11-01 Napoli 1
+2023-02-09 22:23:37 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:23:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2016-11-01 Napoli 1  goal events ####################
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Besiktas和Napoli。
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Besiktas0比0战平Napoli。
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Besiktas                     time                     Napoli
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[]
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 0， 共找到：0， 其中正确的：0
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:135.28761315345764
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2016-11-01 Napoli 2
+2023-02-09 22:25:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:25:54 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2016-11-01 Napoli 2  goal events ####################
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1261 line - 来自 Besiktas 的 QUARESMA  在第 79 分钟点球得分！'
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Besiktas和Napoli。
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Besiktas1比0小胜Napoli，双方贡献了一场精彩的比赛！
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Besiktas                     time                     Napoli
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - QUARESMA  shot a penalty goal At 79'
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[49450.0, 54300.0]
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['49450.0 - 51000']
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：1， 其中正确的：1
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:351.09026527404785
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2016-11-01 Barcelona 1
+2023-02-09 22:31:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:32:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2016-11-01 Barcelona 1  goal events ####################
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Barcelona 的 MESSI 在第 21 分钟射入一球！'
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Man City 的 GUNDOGAN  在第 39 分钟射入一球！'
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Man City和Barcelona。
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Man City1比1战平Barcelona。
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Man City                     time                     Barcelona
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 21' MESSI shot a goal
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - GUNDOGAN  shot a goal At 39'
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[30975.0, 58225.0]
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['30975.0 - 31586', '58225.0 - 58586']
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：2， 其中正确的：2
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:237.70524215698242
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:europe_uefa-champions-league 2016-11-01 Barcelona 2
+2023-02-09 22:35:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:35:43 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:europe_uefa-champions-league 2016-11-01 Barcelona 2  goal events ####################
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Man City 的 DE BRUYNE  在第 51 分钟射入一球！'
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1283 line - 梅开二度! 来自 Man City 的 GUNDOGAN  分别在比赛第 39 分钟和第 74 分钟射门得分！
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Barcelona 的 MESSI 在第 21 分钟射入一球！'
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 21 out of this video, this video is a second part of tha game!
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 39 out of this video, this video is a second part of tha game!
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Man City和Barcelona。
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Man City3比1大胜Barcelona。
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Man City                     time                     Barcelona
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 21' MESSI shot a goal
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - GUNDOGAN  shot a goal At 39'
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - DE BRUYNE  shot a goal At 51'
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - GUNDOGAN  shot a goal At 74'
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[7775.0, 42900.0]
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['7775.0 - 10500', '42900.0 - 45000']
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：4， 其中正确的：2
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:42:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:428.5242578983307
+2023-02-09 22:42:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:42:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:42:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:france_ligue-1 2016-08-28 SG 1
+2023-02-09 22:42:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：71125.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:42:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:france_ligue-1 2016-08-28 SG 1  goal events ####################
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 AS MONACO 的 MOUTINHO 在第 13 分钟射入一球！'
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是AS MONACO和PARIS SAINT-GERMAIN。
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是AS MONACO1比0领先PARIS SAINT-GERMAIN。
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                AS MONACO                     time                     PARIS SAINT-GERMAIN
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - MOUTINHO shot a goal At 13'
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[18775.0, 69600.0]
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['18775.0 - 20225']
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：1， 其中正确的：1
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:240.9308841228485
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:france_ligue-1 2016-08-28 SG 2
+2023-02-09 22:46:50 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：70400.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:46:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:france_ligue-1 2016-08-28 SG 2  goal events ####################
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 AS MONACO 的 CSC 在第 80 分钟射入一球！'
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1267 line - 来自 AS MONACO 的 FABINHO 在伤停补时阶段第 45+2 分钟射入一球！'
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 AS MONACO 的 MOUTINHO 在第 13 分钟射入一球！'
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 PARIS SAINT-GERMAIN 的 CAVANI  在第 63 分钟射入一球！'
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 13 out of this video, this video is a second part of tha game!
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是AS MONACO和PARIS SAINT-GERMAIN。
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是AS MONACO3比1大胜PARIS SAINT-GERMAIN。
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                AS MONACO                     time                     PARIS SAINT-GERMAIN
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - MOUTINHO shot a goal At 13'
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - FABINHO shot a goal! At 45+2'
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 63' CAVANI  shot a goal
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - CSC shot a goal At 80'
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[26025.0, 51900.0]
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['26025.0 - 27820', '51900.0 - 53320']
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：4， 其中正确的：2
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:447.57922744750977
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:france_ligue-1 2016-11-30 Angers 1
+2023-02-09 22:54:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:54:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:france_ligue-1 2016-11-30 Angers 1  goal events ####################
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Paris 的 THIAGOSILVA 在第 34 分钟射入一球！'
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Paris和Angers。
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Paris1比0领先Angers。
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Paris                     time                     Angers
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - THIAGOSILVA shot a goal At 34'
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[50575.0, 50575.0]
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['50575.0 - 51000', '50575.0 - 51000']
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：1， 其中正确的：2
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:304.151526927948
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:france_ligue-1 2016-11-30 Angers 2
+2023-02-09 22:59:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 22:59:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:00:43 - root - WARNING   - process.py : 83 line - Applied processor reduces input query to empty string, all comparisons will have score 0. [Query: '***']
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:france_ligue-1 2016-11-30 Angers 2  goal events ####################
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 PARIS SAINT-GERMAIN 的 CAVANI 在第 66 分钟射入一球！'
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 PARIS SAINT-GERMAIN 的 THIAGOSILVA 在第 34 分钟射入一球！'
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 34 out of this video, this video is a second part of tha game!
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是PARIS SAINT-GERMAIN和Angers。
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是PARIS SAINT-GERMAIN2比0大胜Angers。
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                PARIS SAINT-GERMAIN                     time                     Angers
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - THIAGOSILVA shot a goal At 34'
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - CAVANI shot a goal At 66'
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[30800.0]
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['30800.0 - 33000']
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：2， 其中正确的：1
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:05:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:345.4083390235901
+2023-02-09 23:05:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:05:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:05:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2015-05-09 Augsburg 1
+2023-02-09 23:05:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:05:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2015-05-09 Augsburg 1  goal events ####################
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[]
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 0， 共找到：0， 其中正确的：0
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:119.8140389919281
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2015-05-09 Augsburg 2
+2023-02-09 23:07:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：70875.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:07:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2015-05-09 Augsburg 2  goal events ####################
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[37575.0]
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:09:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:126.16106128692627
+2023-02-09 23:09:14 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:09:14 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:09:14 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2015-08-29 Leverkusen 1
+2023-02-09 23:09:14 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:09:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2015-08-29 Leverkusen 1  goal events ####################
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[38700.0]
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:11:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:116.12499403953552
+2023-02-09 23:11:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:11:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:11:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2015-08-29 Leverkusen 2
+2023-02-09 23:11:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:11:12 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2015-08-29 Leverkusen 2  goal events ####################
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[21750.0, 37675.0]
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：0， 其中正确的：0
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:119.22076797485352
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2015-09-12 Augsburg 1
+2023-02-09 23:13:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:13:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2015-09-12 Augsburg 1  goal events ####################
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[63200.0]
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:117.96291637420654
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2015-09-12 Augsburg 2
+2023-02-09 23:15:07 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：71500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:15:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2015-09-12 Augsburg 2  goal events ####################
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[47275.0, 66025.0]
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：0， 其中正确的：0
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:128.97384881973267
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2016-09-10 Dortmund 1
+2023-02-09 23:17:16 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:17:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2016-09-10 Dortmund 1  goal events ####################
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[]
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 0， 共找到：0， 其中正确的：0
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:119.374746799469
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2016-09-10 Dortmund 2
+2023-02-09 23:19:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:19:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2016-09-10 Dortmund 2  goal events ####################
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[64700.0]
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:120.09163069725037
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2016-10-01 Dortmund 1
+2023-02-09 23:21:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:21:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2016-10-01 Dortmund 1  goal events ####################
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[14025.0]
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:121.76313805580139
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:germany_bundesliga 2016-10-01 Dortmund 2
+2023-02-09 23:23:17 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：68400.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:23:19 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:germany_bundesliga 2016-10-01 Dortmund 2  goal events ####################
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[49750.0]
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:25:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:126.60845708847046
+2023-02-09 23:25:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:25:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:25:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2015-04-29 Fiorentina 1
+2023-02-09 23:25:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：69050.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:25:26 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2015-04-29 Fiorentina 1  goal events ####################
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Juventus 的 F.LLORENTE  在第 36 分钟射入一球！'
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Juventus和Fiorentina。
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Juventus1比0领先Fiorentina。
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Juventus                     time                     Fiorentina
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - F.LLORENTE  shot a goal At 36'
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[48850.0, 52550.0, 67550.0]
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['52550.0 - 54336']
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 3， 共找到：1， 其中正确的：1
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:315.09927225112915
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2015-04-29 Fiorentina 2
+2023-02-09 23:30:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：68675.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:30:41 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2015-04-29 Fiorentina 2  goal events ####################
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Juventus 的 F.LLORENTE  在第 36 分钟射入一球！'
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Juventus 的 C.TEVEZ  在第 7 分钟射入一球！'
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Fiorentina 的 OJ.ILICIC  在第 9 分钟射入一球！'
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 7 out of this video, this video is a second part of tha game!
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 9 out of this video, this video is a second part of tha game!
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 36 out of this video, this video is a second part of tha game!
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Juventus和Fiorentina。
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Juventus2比1小胜Fiorentina，双方贡献了一场精彩的比赛！
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Juventus                     time                     Fiorentina
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - C.TEVEZ  shot a goal At 7'
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 9' OJ.ILICIC  shot a goal
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - F.LLORENTE  shot a goal At 36'
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[36350.0, 67150.0]
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：3， 其中正确的：0
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:125.56628036499023
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2015-08-29 Empoli 1
+2023-02-09 23:32:44 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:32:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2015-08-29 Empoli 1  goal events ####################
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[23875.0, 28525.0]
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：0， 其中正确的：0
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:34:33 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:109.36715173721313
+2023-02-09 23:34:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:34:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:34:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2015-08-29 Empoli 2
+2023-02-09 23:34:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:34:36 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2015-08-29 Empoli 2  goal events ####################
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[34675.0]
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:104.17385292053223
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2015-09-20 Juventus 1
+2023-02-09 23:36:18 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:36:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2015-09-20 Juventus 1  goal events ####################
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是GENOA和Juventus。
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是GENOA0比0战平Juventus。
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                GENOA                     time                     Juventus
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[54075.0]
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:38:11 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:113.8326964378357
+2023-02-09 23:38:12 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:38:12 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:38:12 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2015-09-20 Juventus 2
+2023-02-09 23:38:12 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:38:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2015-09-20 Juventus 2  goal events ####################
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Juventus 的 P.POGBAP  在第 60 分钟射入一球！'
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是GENOA和Juventus。
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Juventus1比0小胜GENOA，双方贡献了一场精彩的比赛！
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                GENOA                     time                     Juventus
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 60' P.POGBAP  shot a goal
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[21875.0]
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['21875.0 - 24000']
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：1， 其中正确的：1
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:45:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:429.9289619922638
+2023-02-09 23:45:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:45:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:45:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2016-08-27 Milan 1
+2023-02-09 23:45:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:45:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2016-08-27 Milan 1  goal events ####################
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Napoli 的 A.MILIK  在第 18 分钟射入一球！'
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Napoli和Milan。
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Napoli1比0领先Milan。
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Napoli                     time                     Milan
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - A.MILIK  shot a goal At 18'
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[26875.0, 48800.0]
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['26875.0 - 27000']
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：1， 其中正确的：1
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:471.36169242858887
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2016-08-27 Milan 2
+2023-02-09 23:53:13 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：73700.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:53:15 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2016-08-27 Milan 2  goal events ####################
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Napoli 的 J.CALLEJON  在第 74 分钟射入一球！'
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1283 line - 梅开二度! 来自 Napoli 的 A.MILIK  分别在比赛第 18 分钟和第 33 分钟射门得分！
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Milan 的 SUSO  在第 55 分钟射入一球！'
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1258 line - 来自 Milan 的 M.NIANG  在第 51 分钟射入一球！'
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 18 out of this video, this video is a second part of tha game!
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1419 line - goal time 33 out of this video, this video is a second part of tha game!
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Napoli和Milan。
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Napoli3比2小胜Milan，双方贡献了一场精彩的比赛！
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Napoli                     time                     Milan
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - A.MILIK  shot a goal At 18'
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - A.MILIK  shot a goal At 33'
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 51' M.NIANG  shot a goal
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line -                                           At 55' SUSO  shot a goal
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1516 line - J.CALLEJON  shot a goal At 74'
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[8050.0, 13750.0, 42275.0, 71825.0]
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：['8050.0 - 9538', '13750.0 - 15538', '42275.0 - 44038']
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 4， 共找到：5， 其中正确的：3
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:326.15771675109863
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2016-09-11 Udinese 1
+2023-02-09 23:58:39 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-09 23:58:42 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2016-09-11 Udinese 1  goal events ####################
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[]
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 0， 共找到：0， 其中正确的：0
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:130.14985179901123
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:italy_serie-a 2016-09-11 Udinese 2
+2023-02-10 00:00:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：74850.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:00:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:italy_serie-a 2016-09-11 Udinese 2  goal events ####################
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Milan和Udinese。
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是Milan0比0战平Udinese。
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Milan                     time                     Udinese
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[63800.0]
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:03:08 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:139.32091403007507
+2023-02-10 00:03:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:03:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:03:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2015-02-14 Coruna 1
+2023-02-10 00:03:09 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：68125.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:03:10 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2015-02-14 Coruna 1  goal events ####################
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[33000.0]
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:114.77129364013672
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2015-02-14 Coruna 2
+2023-02-10 00:05:03 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:05:05 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2015-02-14 Coruna 2  goal events ####################
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[40925.0]
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:111.94700980186462
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2015-04-18 Malaga 1
+2023-02-10 00:06:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:06:57 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2015-04-18 Malaga 1  goal events ####################
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[35575.0]
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:120.77637147903442
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2015-04-18 Malaga 2
+2023-02-10 00:08:56 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：70550.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:08:59 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2015-04-18 Malaga 2  goal events ####################
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[34950.0, 37925.0, 69050.0]
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 3， 共找到：0， 其中正确的：0
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:124.02342867851257
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2015-08-29 Betis 1
+2023-02-10 00:11:00 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:11:02 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2015-08-29 Betis 1  goal events ####################
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[2325.0, 57375.0]
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：0， 其中正确的：0
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:12:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:111.59442901611328
+2023-02-10 00:12:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:12:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:12:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2015-08-29 Betis 2
+2023-02-10 00:12:52 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：70625.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:12:55 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2015-08-29 Betis 2  goal events ####################
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[2400.0, 6000.0, 64600.0]
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 3， 共找到：0， 其中正确的：0
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:119.57480692863464
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2015-09-19 CF 1
+2023-02-10 00:14:51 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:14:54 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2015-09-19 CF 1  goal events ####################
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是REAL MADRID CF和Granada CF。
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是REAL MADRID CF0比0战平Granada CF。
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                REAL MADRID CF                     time                     Granada CF
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[]
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 0， 共找到：0， 其中正确的：0
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:115.56226849555969
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2015-09-19 CF 2
+2023-02-10 00:16:47 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:16:49 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2015-09-19 CF 2  goal events ####################
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[13875.0]
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:113.02966952323914
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2016-09-10 Alaves 1
+2023-02-10 00:18:40 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:18:42 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2016-09-10 Alaves 1  goal events ####################
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是0比0战平。
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[57500.0]
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:109.99832797050476
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2016-09-10 Alaves 2
+2023-02-10 00:20:30 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:20:32 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-10 00:21:04 - root - WARNING   - process.py : 83 line - Applied processor reduces input query to empty string, all comparisons will have score 0. [Query: '>>>']
+2023-02-10 00:21:04 - root - WARNING   - process.py : 83 line - Applied processor reduces input query to empty string, all comparisons will have score 0. [Query: '>>>']
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2016-09-10 Alaves 2  goal events ####################
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[1450.0, 27975.0]
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 2， 共找到：0， 其中正确的：0
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:22:20 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:110.66956639289856
+2023-02-10 00:22:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:22:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:22:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2016-09-21 Villarreal 1
+2023-02-10 00:22:21 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：69450.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:22:22 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 180 line - 本视频为上半场比赛
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2016-09-21 Villarreal 1  goal events ####################
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是Real Madrid和Villarreal。
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 上半场结束，目前结果是Real Madrid0比0战平Villarreal。
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                Real Madrid                     time                     Villarreal
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[67950.0]
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:24:23 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:123.01759123802185
+2023-02-10 00:24:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 992 line -   
+2023-02-10 00:24:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 994 line - --------------------------------------------------------------------------------------------------------------
+2023-02-10 00:24:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 995 line - video:spain_laliga 2016-09-21 Villarreal 2
+2023-02-10 00:24:24 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 998 line - 视频属性：   总帧数：73850.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-10 00:24:26 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 184 line - 本视频为下半场比赛
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1238 line - ##################### video:spain_laliga 2016-09-21 Villarreal 2  goal events ####################
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1239 line - ### showed by players ###
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1355 line - ------Generating goal vides------
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1356 line - ------生成进球视频片段------
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1447 line - ------ done ------
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 本场比赛的双方是和。
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 最终结果是0比0战平。
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1510 line - 以下是得分详情：
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1512 line - ### showed by time line ###
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1514 line -                                     time                     
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1518 line -  
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1520 line - 真实进球时间（帧号）：[4000.0]
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1521 line - 检测正确结果：[]
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1522 line - GT : 1， 共找到：0， 其中正确的：0
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1523 line - ####################################################
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1526 line - time for this video:130.35567331314087
+2023-02-10 00:26:34 - root - INFO      - soccernet_Goal_detection_and_Abstraction_generate.py : 1533 line - 所有真实得分数:71   检测到的得分数:36   检测正确的得分数:36  

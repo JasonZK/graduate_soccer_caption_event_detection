@@ -61,7 +61,7 @@ EVENT_DIR = "D:/dataset/event"
 # Output_big_frames_path = "D:/dataset/A_graduate_experiment/big_frames_19Asia/"
 
 VIDEO_DIR = "D:/dataset/SoccerNet/SoccerNet_test_hq/"
-Output_big_frames_path = "D:/dataset/A_graduate_experiment/big_frames_SoccerNet2-9/"
+Output_big_frames_path = "D:/dataset/A_graduate_experiment/big_frames_SoccerNet2-10/"
 makedir(Output_big_frames_path)
 
 video_output_path = "D:/dataset/output_goal_video/"
@@ -87,7 +87,7 @@ import logging
 #使用basicConfig()来指定日志级别和相关信息
 
 logging.basicConfig(level=logging.DEBUG #设置日志输出格式
-                    ,filename="log/Goal_detection2-9.log" #log日志输出的文件位置和文件名
+                    ,filename="log/Goal_detection2-10.log" #log日志输出的文件位置和文件名
                     ,filemode="w+" #文件的写入格式，w为重新写入文件，默认是追加
                     ,format="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s" #日志输出的格式
                     # -8表示占位符，让输出左对齐，输出长度都为8位
@@ -794,7 +794,7 @@ def check_teams(big_temp_result, big_w_index, frame_width, left_team, left_team_
                 for team_candidate in team_candidates_list:
                     # 两个检测出的队名必须满足：y坐标近似，x坐标关于中间对称
                     if abs(team_candidate[2] - (y1_big + y2_big) / 2) < 3 and \
-                            abs((team_candidate[1] + (x1_big + x2_big) / 2) / 2 - big_w_index) < 10:
+                            abs((team_candidate[1] + (x1_big + x2_big) / 2) / 2 - big_w_index) < 20:
                         two_teams = True
                         if (x1_big + x2_big) / 2 > big_w_index:
                             right_team = team1[0]
@@ -885,8 +885,8 @@ def divid_rows(location, big_temp_result, team_y1, team_y2, team_x):
         # 1、和球队名在同一水平线上（差距小于4）；
         # 2、对于左边球队，球队名在球员名的右边且超过100
         if abs((y1_big + y2_big) / 2 - (team_y1 + team_y2) / 2) < 4 or \
-                (location == "left" and team_x - (x1_big + x2_big) / 2 > 100) \
-                or (location == "right" and (x1_big + x2_big) / 2 - team_x > 100):
+                (location == "left" and team_x - (x1_big + x2_big) / 2 > 130) \
+                or (location == "right" and (x1_big + x2_big) / 2 - team_x > 130):
             continue
 
         # 因为之前先按y排序，再按x排序
@@ -927,7 +927,7 @@ def get_frames(video_dir):
 
     for root, matches, files in os.walk(video_dir):
         for match in matches:
-            if match == "england_epl":
+            if match != "germany_bundesliga":
                 continue
             match_path = os.path.join(video_dir, match)
             for match_root, years, ffiles in os.walk(match_path):
