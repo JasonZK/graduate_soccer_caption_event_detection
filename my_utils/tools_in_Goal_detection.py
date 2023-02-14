@@ -229,6 +229,11 @@ def check_line2(result_line, LorR, player_name_dic, score_time_dic, i, Player_Ti
                 temp_list[jj] = '1'
                 str_line = ''.join(temp_list)
 
+            if str_line1[jj] == 'O' and jj - 1 >= 0 and str_line1[jj - 1].isdigit() and jj+1 < len_line and not str_line1[jj + 1].isdigit():
+                temp_list = list(str_line1)
+                temp_list[jj] = '0'
+                str_line = ''.join(temp_list)
+
         # 球员名在得分时间之前：Messi 34’
         if str_line[0].isalpha():
             ii = 0
@@ -852,10 +857,10 @@ def show_player_text_summarization(Player_Time_list, time_line, left_team, right
                         keys[1], keys[2],
                         keys[3], keys[4]))
 
-            time_line_sorted = sorted(time_line.items(), key=lambda d: eval(d[0]),
-                                      reverse=False)
+    time_line_sorted = sorted(time_line.items(), key=lambda d: eval(d[0]),
+                              reverse=False)
 
-            return time_line_sorted
+    return time_line_sorted
 
 def show_time_line_and_gen_video(time_line_sorted, left_team, right_team):
     # 根据进球时间排序，生成进球时间时间线

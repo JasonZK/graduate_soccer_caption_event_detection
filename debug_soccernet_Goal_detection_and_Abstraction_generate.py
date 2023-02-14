@@ -92,7 +92,7 @@ def get_frames(video_dir):
                                     video_name = match + ' ' + game_split[0] + ' ' + game_split[-1] + ' ' + \
                                                  video_index1[0]
 
-                                    if video_name != "italy_serie-a 2015-04-29 Fiorentina 1":
+                                    if video_name != "italy_serie-a 2015-08-29 Empoli 1":
                                         continue
 
                                     video_path = os.path.join(game_path, video_index)
@@ -219,18 +219,23 @@ def get_frames(video_dir):
                                                     left_line = divid_rows("left", left_big_temp_result, team_y1,
                                                                            team_y2, left_team_x)
 
+
+                                                    player_name_dic, score_time_dic, Player_Time_list, find_flag = check_line2(
+                                                        left_line, 1, player_name_dic, score_time_dic, i,
+                                                        Player_Time_list,
+                                                        find_flag)
+
                                                 if right_big_temp_result:
                                                     right_line = divid_rows("right", right_big_temp_result, team_y1,
                                                                             team_y2, right_team_x)
 
-                                                # 排序、分行完成后，进行逐行细致分析
-                                                player_name_dic, score_time_dic, Player_Time_list, find_flag = check_line2(
-                                                    left_line, 1, player_name_dic, score_time_dic, i, Player_Time_list,
-                                                    find_flag)
+                                                    # 排序、分行完成后，进行逐行细致分析
+                                                    player_name_dic, score_time_dic, Player_Time_list, find_flag = check_line2(
+                                                        right_line, -1, player_name_dic, score_time_dic, i,
+                                                        Player_Time_list, find_flag)
 
-                                                player_name_dic, score_time_dic, Player_Time_list, find_flag = check_line2(
-                                                    right_line, -1, player_name_dic, score_time_dic, i,
-                                                    Player_Time_list, find_flag)
+
+
 
                                         # 很久没有检测到-->检测到
                                         if find_flag and find_nums == 0 and notfind_nums == MAX_INT:
@@ -245,6 +250,8 @@ def get_frames(video_dir):
                                             # 检测数+1，未检测数归零
                                             find_nums += 1
                                             notfind_nums = 0
+                                            # flag需要及时设置为False，不然会一直卡在这里
+                                            find_flag = False
 
                                             # 如果检测数未达到阈值，则继续连续检测
                                             if find_nums < find_nums_thresh:
@@ -255,6 +262,7 @@ def get_frames(video_dir):
                                             else:
                                                 i += 5 * fps
                                                 find_nums = 0
+
 
                                         # 本次没有检测到
                                         else:

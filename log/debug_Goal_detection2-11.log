@@ -1,5 +1,5 @@
-2023-02-11 18:40:35 - root - INFO      - debug_soccernet_Goal_detection_and_Abstraction_generate.py : 126 line -   
-2023-02-11 18:40:35 - root - INFO      - debug_soccernet_Goal_detection_and_Abstraction_generate.py : 128 line - --------------------------------------------------------------------------------------------------------------
-2023-02-11 18:40:35 - root - INFO      - debug_soccernet_Goal_detection_and_Abstraction_generate.py : 129 line - video:italy_serie-a 2015-04-29 Fiorentina 1
-2023-02-11 18:40:35 - root - INFO      - debug_soccernet_Goal_detection_and_Abstraction_generate.py : 133 line - 视频属性：   总帧数：69050.0   FPS:25.0   width:1280.0   height:720.0
-2023-02-11 18:40:39 - root - INFO      - tools_in_Goal_detection.py : 152 line - 本视频为上半场比赛
+2023-02-12 12:09:46 - root - INFO      - debug_soccernet_Goal_detection_and_Abstraction_generate.py : 126 line -   
+2023-02-12 12:09:46 - root - INFO      - debug_soccernet_Goal_detection_and_Abstraction_generate.py : 128 line - --------------------------------------------------------------------------------------------------------------
+2023-02-12 12:09:46 - root - INFO      - debug_soccernet_Goal_detection_and_Abstraction_generate.py : 129 line - video:italy_serie-a 2015-08-29 Empoli 1
+2023-02-12 12:09:46 - root - INFO      - debug_soccernet_Goal_detection_and_Abstraction_generate.py : 133 line - 视频属性：   总帧数：67500.0   FPS:25.0   width:1280.0   height:720.0
+2023-02-12 12:09:54 - root - INFO      - tools_in_Goal_detection.py : 152 line - 本视频为上半场比赛
