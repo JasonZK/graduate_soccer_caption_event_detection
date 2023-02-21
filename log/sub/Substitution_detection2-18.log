@@ -1,0 +1,220 @@
+2023-02-18 20:48:58,209 - INFO - Substitution_detection.py : [line:388] - Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='0', exist_ok=False, img_size=640, iou_thres=0.45, name='exp', no_trace=False, nosave=False, project='runs/detect', save_conf=False, save_txt=False, source='D:/dataset/video_5/soccer_1314_video.mp4', update=False, view_img=False, weights='hpc_sub_model/best_217.pt')
+2023-02-18 20:49:04,371 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 20:49:04,372 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 20:49:04,372 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-08-28 SG 1
+2023-02-18 20:49:04,372 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：71125.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 20:49:04,373 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[]
+2023-02-18 20:49:04,385 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 20:49:04,385 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 20:49:04,385 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-08-28 SG 2
+2023-02-18 20:49:04,385 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：70400.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 20:49:04,386 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[24275, 36200, 38950, 49100, 53525, 68900]
+2023-02-18 20:49:13,579 - INFO - Substitution_detection.py : [line:255] - save:8987 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 20:49:16,522 - INFO - Substitution_detection.py : [line:255] - save:11806 , result:1 down, 2 ups, 1 down, 2 ups, 
+2023-02-18 20:49:25,614 - INFO - Substitution_detection.py : [line:255] - save:19516 , result:1 up, 
+2023-02-18 20:49:39,555 - INFO - Substitution_detection.py : [line:255] - save:24273 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 20:50:02,364 - INFO - Substitution_detection.py : [line:255] - save:39400 , result:1 down, 1 up, 
+2023-02-18 20:50:07,713 - INFO - Substitution_detection.py : [line:255] - save:43839 , result:1 down, 1 up, 
+2023-02-18 20:50:08,839 - INFO - Substitution_detection.py : [line:255] - save:46378 , result:3 ups, 
+2023-02-18 20:50:11,336 - INFO - Substitution_detection.py : [line:255] - save:48927 , result:1 up, 
+2023-02-18 20:50:37,906 - INFO - Substitution_detection.py : [line:255] - save:62303 , result:2 ups, 
+2023-02-18 20:50:45,503 - INFO - Substitution_detection.py : [line:255] - save:65620 , result:3 ups, 
+2023-02-18 20:50:51,329 - INFO - Substitution_detection.py : [line:255] - save:68829 , result:1 down, 2 ups, 1 down, 2 ups, 
+2023-02-18 20:50:57,404 - INFO - Substitution_detection.py : [line:316] - *********************************
+2023-02-18 20:50:57,404 - INFO - Substitution_detection.py : [line:317] - 本视频总结：
+2023-02-18 20:50:57,404 - INFO - Substitution_detection.py : [line:318] - 检测正确结果：['24275 -> 24273', '38950 -> 39400', '49100 -> 46378', '49100 -> 48927', '68900 -> 68829']
+2023-02-18 20:50:57,404 - INFO - Substitution_detection.py : [line:321] - GT : 6， 共找到：11， 其中正确的：5
+2023-02-18 20:50:57,404 - INFO - Substitution_detection.py : [line:322] - 没被找到的：[36200, 53525]
+2023-02-18 20:50:57,404 - INFO - Substitution_detection.py : [line:326] - finish video:720p.mkv  , cost 113.03115558624268 s
+2023-02-18 20:50:57,419 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 20:50:57,419 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 20:50:57,419 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-11-30 Angers 1
+2023-02-18 20:50:57,419 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 20:50:57,420 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[]
+2023-02-18 20:50:57,430 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 20:50:57,430 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 20:50:57,430 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-11-30 Angers 2
+2023-02-18 20:50:57,430 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 20:50:57,431 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[19125, 33075, 43525, 46100, 62725]
+2023-02-18 20:50:58,399 - INFO - Substitution_detection.py : [line:255] - save:2543 , result:2 downs, 
+2023-02-18 20:51:10,549 - INFO - Substitution_detection.py : [line:255] - save:5877 , result:1 down, 
+2023-02-18 20:51:27,846 - INFO - Substitution_detection.py : [line:255] - save:19210 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 20:51:52,351 - INFO - Substitution_detection.py : [line:255] - save:27369 , result:1 up, 
+2023-02-18 20:51:59,883 - INFO - Substitution_detection.py : [line:255] - save:30839 , result:2 downs, 1 up, 2 downs, 1 up, 
+2023-02-18 20:52:05,545 - INFO - Substitution_detection.py : [line:255] - save:36401 , result:1 down, 
+2023-02-18 20:52:12,874 - INFO - Substitution_detection.py : [line:255] - save:41125 , result:1 up, 
+2023-02-18 20:52:27,626 - INFO - Substitution_detection.py : [line:255] - save:53724 , result:1 down, 1 up, 
+2023-02-18 20:52:34,995 - INFO - Substitution_detection.py : [line:255] - save:60145 , result:1 up, 
+2023-02-18 20:52:37,290 - INFO - Substitution_detection.py : [line:255] - save:62734 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 20:52:40,717 - INFO - Substitution_detection.py : [line:255] - save:65377 , result:1 down, 
+2023-02-18 20:52:43,341 - INFO - Substitution_detection.py : [line:316] - *********************************
+2023-02-18 20:52:43,342 - INFO - Substitution_detection.py : [line:317] - 本视频总结：
+2023-02-18 20:52:43,342 - INFO - Substitution_detection.py : [line:318] - 检测正确结果：['19125 -> 19210', '33075 -> 30839', '43525 -> 41125', '62725 -> 60145', '62725 -> 62734', '62725 -> 65377']
+2023-02-18 20:52:43,342 - INFO - Substitution_detection.py : [line:321] - GT : 5， 共找到：11， 其中正确的：6
+2023-02-18 20:52:43,342 - INFO - Substitution_detection.py : [line:322] - 没被找到的：[46100]
+2023-02-18 20:52:43,342 - INFO - Substitution_detection.py : [line:326] - finish video:720p.mkv  , cost 105.92250466346741 s
+2023-02-18 21:08:00,866 - INFO - Substitution_detection.py : [line:388] - Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='0', exist_ok=False, img_size=640, iou_thres=0.45, name='exp', no_trace=False, nosave=False, project='runs/detect', save_conf=False, save_txt=False, source='D:/dataset/video_5/soccer_1314_video.mp4', update=False, view_img=False, weights='hpc_sub_model/best_217.pt')
+2023-02-18 21:08:04,104 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 21:08:04,104 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 21:08:04,105 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-08-28 SG 1
+2023-02-18 21:08:04,105 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：71125.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 21:08:04,105 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[]
+2023-02-18 21:08:04,115 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 21:08:04,115 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 21:08:04,115 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-08-28 SG 2
+2023-02-18 21:08:04,115 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：70400.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 21:08:04,116 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[['2 - 16:11', 24275], ['2 - 24:08', 36200], ['2 - 25:58', 38950], ['2 - 32:44', 49100], ['2 - 35:41', 53525], ['2 - 45:56', 68900]]
+2023-02-18 21:08:13,389 - INFO - Substitution_detection.py : [line:255] - save:8987 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 21:08:16,581 - INFO - Substitution_detection.py : [line:255] - save:11806 , result:1 down, 2 ups, 1 down, 2 ups, 
+2023-02-18 21:08:25,869 - INFO - Substitution_detection.py : [line:255] - save:19516 , result:1 up, 
+2023-02-18 21:08:40,342 - INFO - Substitution_detection.py : [line:255] - save:24273 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 21:09:02,671 - INFO - Substitution_detection.py : [line:255] - save:39400 , result:1 down, 1 up, 
+2023-02-18 21:09:07,926 - INFO - Substitution_detection.py : [line:255] - save:43839 , result:1 down, 1 up, 
+2023-02-18 21:09:09,153 - INFO - Substitution_detection.py : [line:255] - save:46378 , result:3 ups, 
+2023-02-18 21:09:11,663 - INFO - Substitution_detection.py : [line:255] - save:48927 , result:1 up, 
+2023-02-18 21:09:38,555 - INFO - Substitution_detection.py : [line:255] - save:62303 , result:2 ups, 
+2023-02-18 21:09:46,410 - INFO - Substitution_detection.py : [line:255] - save:65620 , result:3 ups, 
+2023-02-18 21:09:52,370 - INFO - Substitution_detection.py : [line:255] - save:68829 , result:1 down, 2 ups, 1 down, 2 ups, 
+2023-02-18 21:09:58,681 - INFO - Substitution_detection.py : [line:316] - *********************************
+2023-02-18 21:09:58,681 - INFO - Substitution_detection.py : [line:317] - 本视频总结：
+2023-02-18 21:09:58,681 - INFO - Substitution_detection.py : [line:318] - 检测正确结果：['24275 -> 24273', '38950 -> 39400', '49100 -> 46378', '49100 -> 48927', '68900 -> 68829']
+2023-02-18 21:09:58,681 - INFO - Substitution_detection.py : [line:321] - GT : 6， 共找到：11， 其中正确的：5
+2023-02-18 21:09:58,681 - INFO - Substitution_detection.py : [line:322] - 没被找到的：[['2 - 16:11', 24275], ['2 - 24:08', 36200], ['2 - 25:58', 38950], ['2 - 32:44', 49100], ['2 - 35:41', 53525], ['2 - 45:56', 68900]]
+2023-02-18 21:09:58,681 - INFO - Substitution_detection.py : [line:326] - finish video:720p.mkv  , cost 114.57643508911133 s
+2023-02-18 21:09:58,695 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 21:09:58,695 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 21:09:58,695 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-11-30 Angers 1
+2023-02-18 21:09:58,695 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 21:09:58,696 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[]
+2023-02-18 21:09:58,705 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 21:09:58,706 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 21:09:58,706 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-11-30 Angers 2
+2023-02-18 21:09:58,706 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 21:09:58,706 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[['2 - 12:45', 19125], ['2 - 22:03', 33075], ['2 - 29:01', 43525], ['2 - 30:44', 46100], ['2 - 41:49', 62725]]
+2023-02-18 21:09:59,595 - INFO - Substitution_detection.py : [line:255] - save:2543 , result:2 downs, 
+2023-02-18 21:10:12,238 - INFO - Substitution_detection.py : [line:255] - save:5877 , result:1 down, 
+2023-02-18 21:10:29,965 - INFO - Substitution_detection.py : [line:255] - save:19210 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 21:10:54,789 - INFO - Substitution_detection.py : [line:255] - save:27369 , result:1 up, 
+2023-02-18 21:11:02,460 - INFO - Substitution_detection.py : [line:255] - save:30839 , result:2 downs, 1 up, 2 downs, 1 up, 
+2023-02-18 21:11:08,044 - INFO - Substitution_detection.py : [line:255] - save:36401 , result:1 down, 
+2023-02-18 21:11:15,469 - INFO - Substitution_detection.py : [line:255] - save:41125 , result:1 up, 
+2023-02-18 21:11:30,747 - INFO - Substitution_detection.py : [line:255] - save:53724 , result:1 down, 1 up, 
+2023-02-18 21:11:38,464 - INFO - Substitution_detection.py : [line:255] - save:60145 , result:1 up, 
+2023-02-18 21:11:40,664 - INFO - Substitution_detection.py : [line:255] - save:62734 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 21:11:44,133 - INFO - Substitution_detection.py : [line:255] - save:65377 , result:1 down, 
+2023-02-18 21:11:46,799 - INFO - Substitution_detection.py : [line:316] - *********************************
+2023-02-18 21:11:46,799 - INFO - Substitution_detection.py : [line:317] - 本视频总结：
+2023-02-18 21:11:46,799 - INFO - Substitution_detection.py : [line:318] - 检测正确结果：['19125 -> 19210', '33075 -> 30839', '43525 -> 41125', '62725 -> 60145', '62725 -> 62734', '62725 -> 65377']
+2023-02-18 21:11:46,799 - INFO - Substitution_detection.py : [line:321] - GT : 5， 共找到：11， 其中正确的：6
+2023-02-18 21:11:46,799 - INFO - Substitution_detection.py : [line:322] - 没被找到的：[['2 - 12:45', 19125], ['2 - 22:03', 33075], ['2 - 29:01', 43525], ['2 - 30:44', 46100], ['2 - 41:49', 62725]]
+2023-02-18 21:11:46,799 - INFO - Substitution_detection.py : [line:326] - finish video:720p.mkv  , cost 108.1030445098877 s
+2023-02-18 21:15:22,268 - INFO - Substitution_detection.py : [line:388] - Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='0', exist_ok=False, img_size=640, iou_thres=0.45, name='exp', no_trace=False, nosave=False, project='runs/detect', save_conf=False, save_txt=False, source='D:/dataset/video_5/soccer_1314_video.mp4', update=False, view_img=False, weights='hpc_sub_model/best_217.pt')
+2023-02-18 21:15:25,397 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 21:15:25,397 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 21:15:25,397 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-08-28 SG 1
+2023-02-18 21:15:25,397 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：71125.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 21:15:25,398 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[]
+2023-02-18 21:15:25,408 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 21:15:25,408 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 21:15:25,408 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-08-28 SG 2
+2023-02-18 21:15:25,408 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：70400.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 21:15:25,408 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[['2 - 16:11', 24275], ['2 - 24:08', 36200], ['2 - 25:58', 38950], ['2 - 32:44', 49100], ['2 - 35:41', 53525], ['2 - 45:56', 68900]]
+2023-02-18 21:15:34,349 - INFO - Substitution_detection.py : [line:255] - save:8987 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 21:15:37,357 - INFO - Substitution_detection.py : [line:255] - save:11806 , result:1 down, 2 ups, 1 down, 2 ups, 
+2023-02-18 21:15:46,530 - INFO - Substitution_detection.py : [line:255] - save:19516 , result:1 up, 
+2023-02-18 21:16:00,598 - INFO - Substitution_detection.py : [line:255] - save:24273 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 21:16:22,505 - INFO - Substitution_detection.py : [line:255] - save:39400 , result:1 down, 1 up, 
+2023-02-18 21:16:27,520 - INFO - Substitution_detection.py : [line:255] - save:43839 , result:1 down, 1 up, 
+2023-02-18 21:16:28,660 - INFO - Substitution_detection.py : [line:255] - save:46378 , result:3 ups, 
+2023-02-18 21:16:31,122 - INFO - Substitution_detection.py : [line:255] - save:48927 , result:1 up, 
+2023-02-18 21:16:57,266 - INFO - Substitution_detection.py : [line:255] - save:62303 , result:2 ups, 
+2023-02-18 21:17:04,981 - INFO - Substitution_detection.py : [line:255] - save:65620 , result:3 ups, 
+2023-02-18 21:17:10,844 - INFO - Substitution_detection.py : [line:255] - save:68829 , result:1 down, 2 ups, 1 down, 2 ups, 
+2023-02-18 21:17:16,952 - INFO - Substitution_detection.py : [line:316] - *********************************
+2023-02-18 21:17:16,953 - INFO - Substitution_detection.py : [line:317] - 本视频总结：
+2023-02-18 21:17:16,953 - INFO - Substitution_detection.py : [line:318] - 检测正确结果：['24275 -> 24273', '38950 -> 39400', '49100 -> 46378', '49100 -> 48927', '68900 -> 68829']
+2023-02-18 21:17:16,953 - INFO - Substitution_detection.py : [line:321] - GT : 6， 共找到：11， 其中正确的：5
+2023-02-18 21:17:16,953 - INFO - Substitution_detection.py : [line:322] - 没被找到的：[['2 - 16:11', 24275], ['2 - 24:08', 36200], ['2 - 25:58', 38950], ['2 - 32:44', 49100], ['2 - 35:41', 53525], ['2 - 45:56', 68900]]
+2023-02-18 21:17:16,953 - INFO - Substitution_detection.py : [line:326] - finish video:720p.mkv  , cost 111.55473136901855 s
+2023-02-18 21:17:16,967 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 21:17:16,967 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 21:17:16,967 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-11-30 Angers 1
+2023-02-18 21:17:16,967 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 21:17:16,968 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[]
+2023-02-18 21:17:16,978 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-18 21:17:16,978 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-18 21:17:16,978 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-11-30 Angers 2
+2023-02-18 21:17:16,978 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-18 21:17:16,978 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：[['2 - 12:45', 19125], ['2 - 22:03', 33075], ['2 - 29:01', 43525], ['2 - 30:44', 46100], ['2 - 41:49', 62725]]
+2023-02-18 21:17:17,940 - INFO - Substitution_detection.py : [line:255] - save:2543 , result:2 downs, 
+2023-02-18 21:17:30,117 - INFO - Substitution_detection.py : [line:255] - save:5877 , result:1 down, 
+2023-02-18 21:17:47,456 - INFO - Substitution_detection.py : [line:255] - save:19210 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 21:18:11,399 - INFO - Substitution_detection.py : [line:255] - save:27369 , result:1 up, 
+2023-02-18 21:18:18,998 - INFO - Substitution_detection.py : [line:255] - save:30839 , result:2 downs, 1 up, 2 downs, 1 up, 
+2023-02-18 21:18:24,379 - INFO - Substitution_detection.py : [line:255] - save:36401 , result:1 down, 
+2023-02-18 21:18:31,724 - INFO - Substitution_detection.py : [line:255] - save:41125 , result:1 up, 
+2023-02-18 21:18:46,694 - INFO - Substitution_detection.py : [line:255] - save:53724 , result:1 down, 1 up, 
+2023-02-18 21:18:53,941 - INFO - Substitution_detection.py : [line:255] - save:60145 , result:1 up, 
+2023-02-18 21:18:56,035 - INFO - Substitution_detection.py : [line:255] - save:62734 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-18 21:18:59,475 - INFO - Substitution_detection.py : [line:255] - save:65377 , result:1 down, 
+2023-02-18 21:19:02,057 - INFO - Substitution_detection.py : [line:316] - *********************************
+2023-02-18 21:19:02,058 - INFO - Substitution_detection.py : [line:317] - 本视频总结：
+2023-02-18 21:19:02,058 - INFO - Substitution_detection.py : [line:318] - 检测正确结果：['19125 -> 19210', '33075 -> 30839', '43525 -> 41125', '62725 -> 60145', '62725 -> 62734', '62725 -> 65377']
+2023-02-18 21:19:02,058 - INFO - Substitution_detection.py : [line:321] - GT : 5， 共找到：11， 其中正确的：6
+2023-02-18 21:19:02,058 - INFO - Substitution_detection.py : [line:322] - 没被找到的：[['2 - 12:45', 19125], ['2 - 22:03', 33075], ['2 - 29:01', 43525], ['2 - 30:44', 46100], ['2 - 41:49', 62725]]
+2023-02-18 21:19:02,058 - INFO - Substitution_detection.py : [line:326] - finish video:720p.mkv  , cost 105.0903913974762 s
+2023-02-19 18:49:40,910 - INFO - Substitution_detection.py : [line:388] - Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='0', exist_ok=False, img_size=640, iou_thres=0.45, name='exp', no_trace=False, nosave=False, project='runs/detect', save_conf=False, save_txt=False, source='D:/dataset/video_5/soccer_1314_video.mp4', update=False, view_img=False, weights='hpc_sub_model/best_217.pt')
+2023-02-19 18:49:47,077 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-19 18:49:47,078 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-19 18:49:47,078 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-08-28 SG 1
+2023-02-19 18:49:47,078 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：71125.0   FPS:25   width:1280.0   height:720.0
+2023-02-19 18:49:47,080 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：{}
+2023-02-19 18:49:47,094 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-19 18:49:47,094 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-19 18:49:47,094 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-08-28 SG 2
+2023-02-19 18:49:47,094 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：70400.0   FPS:25   width:1280.0   height:720.0
+2023-02-19 18:49:47,095 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：{24275: '2 - 16:11', 36200: '2 - 24:08', 38950: '2 - 25:58', 49100: '2 - 32:44', 53525: '2 - 35:41', 68900: '2 - 45:56'}
+2023-02-19 18:49:56,018 - INFO - Substitution_detection.py : [line:255] - save:8987 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-19 18:49:58,997 - INFO - Substitution_detection.py : [line:255] - save:11806 , result:1 down, 2 ups, 1 down, 2 ups, 
+2023-02-19 18:50:08,102 - INFO - Substitution_detection.py : [line:255] - save:19516 , result:1 up, 
+2023-02-19 18:50:21,977 - INFO - Substitution_detection.py : [line:255] - save:24273 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-19 18:50:43,959 - INFO - Substitution_detection.py : [line:255] - save:39400 , result:1 down, 1 up, 
+2023-02-19 18:50:49,119 - INFO - Substitution_detection.py : [line:255] - save:43839 , result:1 down, 1 up, 
+2023-02-19 18:50:50,243 - INFO - Substitution_detection.py : [line:255] - save:46378 , result:3 ups, 
+2023-02-19 18:50:52,687 - INFO - Substitution_detection.py : [line:255] - save:48927 , result:1 up, 
+2023-02-19 18:51:19,153 - INFO - Substitution_detection.py : [line:255] - save:62303 , result:2 ups, 
+2023-02-19 18:51:26,937 - INFO - Substitution_detection.py : [line:255] - save:65620 , result:3 ups, 
+2023-02-19 18:51:32,902 - INFO - Substitution_detection.py : [line:255] - save:68829 , result:1 down, 2 ups, 1 down, 2 ups, 
+2023-02-19 18:51:39,073 - INFO - Substitution_detection.py : [line:316] - *********************************
+2023-02-19 18:51:39,073 - INFO - Substitution_detection.py : [line:317] - 本视频总结：
+2023-02-19 18:51:39,073 - INFO - Substitution_detection.py : [line:318] - 检测正确结果：['24275 -> 24273', '38950 -> 39400', '49100 -> 46378', '49100 -> 48927', '68900 -> 68829']
+2023-02-19 18:51:39,073 - INFO - Substitution_detection.py : [line:321] - GT : 6， 共找到：11， 其中正确的：5
+2023-02-19 18:51:39,073 - INFO - Substitution_detection.py : [line:322] - 没被找到的：{36200: '2 - 24:08', 53525: '2 - 35:41'}
+2023-02-19 18:51:39,073 - INFO - Substitution_detection.py : [line:326] - finish video:720p.mkv  , cost 111.99193215370178 s
+2023-02-19 18:51:39,088 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-19 18:51:39,088 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-19 18:51:39,088 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-11-30 Angers 1
+2023-02-19 18:51:39,088 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-19 18:51:39,089 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：{}
+2023-02-19 18:51:39,100 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-19 18:51:39,100 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-19 18:51:39,100 - INFO - Substitution_detection.py : [line:115] - video:france_ligue-1 2016-11-30 Angers 2
+2023-02-19 18:51:39,100 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-19 18:51:39,101 - INFO - Substitution_detection.py : [line:140] - 真实替换时间（帧号）：{19125: '2 - 12:45', 33075: '2 - 22:03', 43525: '2 - 29:01', 46100: '2 - 30:44', 62725: '2 - 41:49'}
+2023-02-19 18:51:40,122 - INFO - Substitution_detection.py : [line:255] - save:2543 , result:2 downs, 
+2023-02-19 18:51:52,499 - INFO - Substitution_detection.py : [line:255] - save:5877 , result:1 down, 
+2023-02-19 18:52:09,663 - INFO - Substitution_detection.py : [line:255] - save:19210 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-19 18:52:33,900 - INFO - Substitution_detection.py : [line:255] - save:27369 , result:1 up, 
+2023-02-19 18:52:41,400 - INFO - Substitution_detection.py : [line:255] - save:30839 , result:2 downs, 1 up, 2 downs, 1 up, 
+2023-02-19 18:52:46,734 - INFO - Substitution_detection.py : [line:255] - save:36401 , result:1 down, 
+2023-02-19 18:52:53,965 - INFO - Substitution_detection.py : [line:255] - save:41125 , result:1 up, 
+2023-02-19 18:53:08,642 - INFO - Substitution_detection.py : [line:255] - save:53724 , result:1 down, 1 up, 
+2023-02-19 18:53:15,979 - INFO - Substitution_detection.py : [line:255] - save:60145 , result:1 up, 
+2023-02-19 18:53:18,141 - INFO - Substitution_detection.py : [line:255] - save:62734 , result:1 down, 1 up, 1 down, 1 up, 
+2023-02-19 18:53:21,572 - INFO - Substitution_detection.py : [line:255] - save:65377 , result:1 down, 
+2023-02-19 18:53:24,189 - INFO - Substitution_detection.py : [line:316] - *********************************
+2023-02-19 18:53:24,189 - INFO - Substitution_detection.py : [line:317] - 本视频总结：
+2023-02-19 18:53:24,189 - INFO - Substitution_detection.py : [line:318] - 检测正确结果：['19125 -> 19210', '33075 -> 30839', '43525 -> 41125', '62725 -> 60145', '62725 -> 62734', '62725 -> 65377']
+2023-02-19 18:53:24,190 - INFO - Substitution_detection.py : [line:321] - GT : 5， 共找到：11， 其中正确的：6
+2023-02-19 18:53:24,190 - INFO - Substitution_detection.py : [line:322] - 没被找到的：{46100: '2 - 30:44'}
+2023-02-19 18:53:24,190 - INFO - Substitution_detection.py : [line:326] - finish video:720p.mkv  , cost 105.10026335716248 s

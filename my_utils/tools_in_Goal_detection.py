@@ -46,7 +46,6 @@ def makedir(new_dir):
 
 
 import logging
-
 # 默认的warning级别，只输出warning以上的
 # 使用basicConfig()来指定日志级别和相关信息
 

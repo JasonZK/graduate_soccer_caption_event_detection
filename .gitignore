@@ -1,3 +1,5 @@
 # Project exclude paths
 venv/
 padOCR_inference/
+hpc_sub_model/
+runs/
