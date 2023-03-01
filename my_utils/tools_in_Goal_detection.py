@@ -46,6 +46,7 @@ def makedir(new_dir):
 
 
 import logging
+
 # 默认的warning级别，只输出warning以上的
 # 使用basicConfig()来指定日志级别和相关信息
 
@@ -58,9 +59,11 @@ import logging
 #                     , datefmt="%Y-%m-%d %H:%M:%S"  # 时间输出的格式
 #                     )
 
+father_path = os.path.dirname(os.path.dirname(__file__))
+
 # 获取队名文件
 team_name = []
-f = open("team_name_full.txt", "r")
+f = open(os.path.join(father_path, "team_name_full.txt"), "r")
 for line in f:
     line = line[:-1]
     team_name.append(line)
@@ -89,7 +92,7 @@ def get_ocr_result(videoCap, i, h_index):
     if boolFrame:
         temp_jpgframe = np.asarray(matFrame)
         # 截取上面0-90区域进行OCR检测
-        if h_index < 250:
+        if h_index < 300:
             jpgframe = temp_jpgframe[0:h_index]
         else:
             jpgframe = temp_jpgframe[h_index:]
@@ -159,44 +162,44 @@ def game_time(videoCap, frame_count, small_h_index, fps):
         return 'full', time_12
 
 
-def gen_one_goal_video(video_name, videoClip, goal_time_minute, player, playback_index, video_output_path, text, goal_frame_index, fps):
+def gen_one_goal_video(video_name, videoClip, goal_time_minute, player, playback_index, video_output_path, text,
+                       goal_frame_index, fps):
+    save_path = video_output_path + video_name + '_' + player + goal_time_minute + '_Playback_audio' + '.mp4'
+    bias = 100000
+    start = 0
+    end = 0
+    nearest = 0
+    before_len = 0
+    after_len = 0
+    nearest_len = 0
+    for ii, (ps, pe) in enumerate(playback_index):
+        if abs(goal_frame_index - (ps + pe) / 2) < bias:
+            bias = abs(goal_frame_index - (ps + pe) / 2)
+            nearest = ii
+            nearest_len = pe - ps
+    if nearest - 1 > 0:
+        before_len = playback_index[nearest - 1][1] - playback_index[nearest - 1][0]
+    if nearest + 1 < len(playback_index):
+        after_len = playback_index[nearest + 1][1] - playback_index[nearest + 1][0]
+    if nearest_len >= before_len and nearest_len >= after_len:
+        start = playback_index[nearest][0]
+        end = playback_index[nearest][1]
+    elif before_len >= nearest_len and before_len >= after_len:
+        start = playback_index[nearest - 1][0]
+        end = playback_index[nearest - 1][1]
+    else:
+        start = playback_index[nearest + 1][0]
+        end = playback_index[nearest + 1][1]
 
-        save_path = video_output_path + video_name + '_' + player + goal_time_minute + '_Playback_audio' + '.mp4'
-        bias = 100000
-        start = 0
-        end = 0
-        nearest = 0
-        before_len = 0
-        after_len = 0
-        nearest_len = 0
-        for ii, (ps, pe) in enumerate(playback_index):
-            if abs(goal_frame_index - (ps + pe) / 2) < bias:
-                bias = abs(goal_frame_index - (ps + pe) / 2)
-                nearest = ii
-                nearest_len = pe - ps
-        if nearest - 1 > 0:
-            before_len = playback_index[nearest - 1][1] - playback_index[nearest - 1][0]
-        if nearest + 1 < len(playback_index):
-            after_len = playback_index[nearest + 1][1] - playback_index[nearest + 1][0]
-        if nearest_len >= before_len and nearest_len >= after_len:
-            start = playback_index[nearest][0]
-            end = playback_index[nearest][1]
-        elif before_len >= nearest_len and before_len >= after_len:
-            start = playback_index[nearest - 1][0]
-            end = playback_index[nearest - 1][1]
-        else:
-            start = playback_index[nearest + 1][0]
-            end = playback_index[nearest + 1][1]
+    video_clip = videoClip.subclip(start // fps - 2, end // fps + 2)
+    # text = player + " from " + team + " scores a goal at " + goal_time + "!"
+    font2_B = "Fonts/arialbd.ttf"
+    texpClip = TextClip(text, font=font2_B, fontsize=35, color='red').set_position('top').set_duration(
+        video_clip.duration).set_start(0)
+    video_clip = CompositeVideoClip([video_clip, texpClip])
+    video_clip.write_videofile(save_path, logger=None)
 
-        video_clip = videoClip.subclip(start // fps - 2, end // fps + 2)
-        # text = player + " from " + team + " scores a goal at " + goal_time + "!"
-        font2_B = "Fonts/arialbd.ttf"
-        texpClip = TextClip(text, font=font2_B, fontsize=35, color='red').set_position('top').set_duration(
-            video_clip.duration).set_start(0)
-        video_clip = CompositeVideoClip([video_clip, texpClip])
-        video_clip.write_videofile(save_path, logger=None)
-
-        logging.info("save video to {}".format(save_path))
+    logging.info("save video to {}".format(save_path))
 
 
 def check_line2(result_line, LorR, player_name_dic, score_time_dic, i, Player_Time_list, big_flag):
@@ -228,7 +231,8 @@ def check_line2(result_line, LorR, player_name_dic, score_time_dic, i, Player_Ti
                 temp_list[jj] = '1'
                 str_line = ''.join(temp_list)
 
-            if str_line1[jj] == 'O' and jj - 1 >= 0 and str_line1[jj - 1].isdigit() and jj+1 < len_line and not str_line1[jj + 1].isdigit():
+            if str_line1[jj] == 'O' and jj - 1 >= 0 and str_line1[jj - 1].isdigit() and jj + 1 < len_line and not \
+                    str_line1[jj + 1].isdigit():
                 temp_list = list(str_line1)
                 temp_list[jj] = '0'
                 str_line = ''.join(temp_list)
@@ -365,10 +369,10 @@ def check_line2(result_line, LorR, player_name_dic, score_time_dic, i, Player_Ti
                 if str_line[ii].isalpha():
                     # 绝对是P
                     if str_line[ii].upper() == 'P' \
-                            and ((pre_mode == "score" and((ii + 1 == len_line) or (ii + 1 < len_line and not str_line[
-                                                             ii + 1].isalpha())))
+                            and ((pre_mode == "score" and ((ii + 1 == len_line) or (ii + 1 < len_line and not str_line[
+                        ii + 1].isalpha())))
                                  or ((ii - 1) >= 0 and str_line[ii - 1] == '(')
-                                 or ((ii + 1 < len_line) and str_line[ii + 1] == ')') ):
+                                 or ((ii + 1 < len_line) and str_line[ii + 1] == ')')):
                         score_frame_type = str(int(i)) + "_" + "P"
                         # 不是P，是新的P开头的人名
                         ii += 1
@@ -749,6 +753,7 @@ def merge_player_time_list(Player_Time_list, player_name_dic, score_time_dic):
 
     # return Player_Time_list
 
+
 def show_player_text_summarization(Player_Time_list, time_line, left_team, right_team):
     nn = len(Player_Time_list)
     for i in range(nn):
@@ -795,8 +800,8 @@ def show_player_text_summarization(Player_Time_list, time_line, left_team, right
                 #                                                                                  keys[1]))
                 logging.info(
                     "梅开二度! 来自 {} 的 {} 分别在比赛第 {} 分钟和第 {} 分钟射门得分！".format(team, name,
-                                                                        keys[0],
-                                                                        keys[1]))
+                                                                                               keys[0],
+                                                                                               keys[1]))
                 # logging.info("**********************************************************")
             elif goal_num_player == 3:
                 keys = list(Player_Time_list[i].goaltime.keys())
@@ -813,13 +818,13 @@ def show_player_text_summarization(Player_Time_list, time_line, left_team, right
                 #                               keys[1], keys[2]))
                 logging.info(
                     "帽子戏法! 来自 {} 的 {} 分别在比赛第 {} 分钟、第 {} 分钟，和第 {} 分钟射门得分！".format(team,
-                                                                                 name,
-                                                                                 keys[
-                                                                                     0],
-                                                                                 keys[
-                                                                                     1],
-                                                                                 keys[
-                                                                                     2]))
+                                                                                                           name,
+                                                                                                           keys[
+                                                                                                               0],
+                                                                                                           keys[
+                                                                                                               1],
+                                                                                                           keys[
+                                                                                                               2]))
                 # logging.info("**********************************************************")
             elif goal_num_player == 4:
                 keys = list(Player_Time_list[i].goaltime.keys())
@@ -860,6 +865,7 @@ def show_player_text_summarization(Player_Time_list, time_line, left_team, right
                               reverse=False)
 
     return time_line_sorted
+
 
 def show_time_line_and_gen_video(time_line_sorted, left_team, right_team):
     # 根据进球时间排序，生成进球时间时间线
@@ -944,5 +950,3 @@ def time_to_frame_index(goal_time_minute, video_type, time_refer, fps):
                 ref_frame_index - (ref_minute - int_goal_time) * 60 * fps)
 
     return goal_frame_index
-
-

@@ -1,0 +1,8 @@
+2023-02-21 15:44:49,012 - INFO - Substitution_detection.py : [line:441] - Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='cuda:0', exist_ok=False, img_size=640, iou_thres=0.45, name='exp', no_trace=False, nosave=False, project='runs/detect', save_conf=False, save_txt=False, source='D:/dataset/video_5/soccer_1314_video.mp4', update=False, view_img=False, weights='hpc_sub_model/best_219_200ep.pt')
+2023-02-21 15:44:55,514 - INFO - Substitution_detection.py : [line:112] -   
+2023-02-21 15:44:55,514 - INFO - Substitution_detection.py : [line:114] - --------------------------------------------------------------------------------------------------------------
+2023-02-21 15:44:55,514 - INFO - Substitution_detection.py : [line:115] - video:spain_laliga 2015-09-19 CF 2
+2023-02-21 15:44:55,515 - INFO - Substitution_detection.py : [line:119] - 视频属性：   总帧数：67500.0   FPS:25   width:1280.0   height:720.0
+2023-02-21 15:44:55,518 - INFO - Substitution_detection.py : [line:141] - 真实替换时间（帧号）：{22500: '2 - 15:00', 24650: '2 - 16:26', 32825: '2 - 21:53', 47050: '2 - 31:22', 47825: '2 - 31:53', 59875: '2 - 39:55'}
+2023-02-21 15:45:24,816 - INFO - Substitution_detection.py : [line:287] - save:7645 , result:1 down, 1 up, 
+2023-02-21 15:45:47,745 - INFO - Substitution_detection.py : [line:287] - save:14358 , result:1 up, 

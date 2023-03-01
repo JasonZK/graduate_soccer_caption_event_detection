@@ -1,7 +1,7 @@
 from SoccerNet.Evaluation.ActionSpotting import evaluate
 
 PATH_DATASET = "D:/dataset/SoccerNet/SoccerNet_test_hq/"
-PATH_PREDICTIONS = "D:/dataset/A_graduate_experiment/sub/socccernet_Json_result_2-20"
+PATH_PREDICTIONS = "D:/dataset/A_graduate_experiment/sub/socccernet_Json_result_2-23"
 
 results = evaluate(SoccerNet_path=PATH_DATASET, Predictions_path=PATH_PREDICTIONS,
                    split="test", version=2, prediction_file="results_spotting.json", metric="loose")

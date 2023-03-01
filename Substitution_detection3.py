@@ -35,15 +35,15 @@ EVENT_DIR = "D:/dataset/event"
 # Output_big_frames_path = "D:/dataset/MAKE_OCR_DATA/small_frames"
 
 VIDEO_DIR = "D:/dataset/temp_videos"
-Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/sub_frames_soccernet_2-22"
-raw_Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/raw_sub_frames_soccernet_2-22"
-wrong_Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/wrong_sub_frames_soccernet_2-22"
+Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/sub_frames_soccernet_2-22-3"
+raw_Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/raw_sub_frames_soccernet_2-22-3"
+wrong_Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/wrong_sub_frames_soccernet_2-22-3"
 
 makedir(Output_big_frames_path)
 makedir(raw_Output_big_frames_path)
 makedir(wrong_Output_big_frames_path)
 
-socccernet_json_result_dir = "D:/dataset/A_graduate_experiment/sub/socccernet_Json_result_2-22"
+socccernet_json_result_dir = "D:/dataset/A_graduate_experiment/sub/socccernet_Json_result_2-22-3"
 makedir(socccernet_json_result_dir)
 
 VIDEO_DIR = "D:/dataset/SoccerNet/SoccerNet_test_hq/"
@@ -69,10 +69,6 @@ def get_substitution_index(VIDEO_DIR):
 
     old_img_w = old_img_h = imgsz
     old_img_b = 1
-
-    gt_total_goal = 0
-    get_total_goal = 0
-    get_right_total_goal = 0
 
     for root, matches, files in os.walk(VIDEO_DIR):
         for match in matches:
@@ -103,7 +99,7 @@ def get_substitution_index(VIDEO_DIR):
                                     video_name = match + ' ' + game_split[0] + ' ' + game_split[-1] + ' ' + \
                                                  half
 
-                                    # if video_name != "england_epl 2015-08-16 Chelsea 2":
+                                    # if video_name != "spain_laliga 2015-09-19 CF 2":
                                     #     continue
 
                                     video_path = os.path.join(game_path, video_index)
@@ -143,13 +139,9 @@ def get_substitution_index(VIDEO_DIR):
                                             goal_seconds = int(label_time[-2::])
                                             gt_frame = fps * (goal_seconds + 60 * goal_minutes)
                                             gt_sub_frame_indexes[gt_frame] = label_time
-
-
                                     logger.info("真实替换时间（帧号）：{}".format(gt_sub_frame_indexes))
                                     if not gt_sub_frame_indexes:
                                         continue
-
-                                    gt_total_goal += len(gt_sub_frame_indexes)
 
 
 
@@ -185,7 +177,7 @@ def get_substitution_index(VIDEO_DIR):
 
                                     substitution_frame_index = []
                                     while i < frame_count:
-                                        # if i >= 27706:
+                                        # if i >= 22565:
                                         #     print("")
                                         # logger.info("deal with {}".format(i))
                                         videoCap.set(cv.CAP_PROP_POS_FRAMES, i)
@@ -293,10 +285,10 @@ def get_substitution_index(VIDEO_DIR):
                                                 if 2 <= stay_nums < 100 and (not sub_frame_indexes or (i - sub_frame_indexes[-1]) > fps * 10):
 
                                                     if y_sub_center <= up_sub_index:
-                                                        big_result, big_temp_result = get_ocr_result(videoCap, i, up_sub_index)
+                                                        big_result, big_temp_result = get_ocr_result(videoCap, i,up_sub_index)
                                                         height_plus = 0
                                                     else:
-                                                        big_result, big_temp_result = get_ocr_result(videoCap, i, down_sub_index)
+                                                        big_result, big_temp_result = get_ocr_result(videoCap, i,down_sub_index)
                                                         height_plus = down_sub_index
 
                                                     if big_result:
@@ -308,13 +300,9 @@ def get_substitution_index(VIDEO_DIR):
                                                             y2_big = big_temp_result[0][ii][3][1]
 
                                                             str_y_center = (y1_big + y2_big) // 2 + height_plus
-                                                            str_x_center = (x1_big + x2_big) // 2
-
-                                                            x_bias = int(frame_width * 2 / 5)
 
                                                             # 排除在中间位置，以及长度不合理的字符串
-                                                            if len(strr) > 3 and abs(y_sub_center - str_y_center) <= 6 \
-                                                                    and abs(x_sub_center - str_x_center) < x_bias:
+                                                            if len(strr) > 3 and abs(y_sub_center - str_y_center) <= 6:
                                                                 has_str_flag = True
                                                                 break
                                                         if has_str_flag:
@@ -330,8 +318,6 @@ def get_substitution_index(VIDEO_DIR):
                                                                                              video_name + "_" + str(i) + ".jpg")
                                                             cv.imwrite(save_raw_img_path, raw_jpg)
                                                             stay_nums = 101
-
-                                                            get_total_goal += 1
 
 
                                                 # if find_nums == 4:
@@ -416,8 +402,6 @@ def get_substitution_index(VIDEO_DIR):
                                                                            len(right_sub_result)))
                                     logger.info("没被找到的：{}".format(rest_gt_sub))
 
-                                    get_right_total_goal += len(gt_sub_frame_indexes) - len(rest_gt_sub)
-
 
                                     time2 = time.time()
                                     logger.info("finish video:{}  , cost {} s".format(video_index1[1], time2 - time1))
@@ -440,8 +424,6 @@ def get_substitution_index(VIDEO_DIR):
                                                        "results_spotting.json"), 'w') as output_file:
                                     json.dump(json_data, output_file, indent=4)
 
-    logger.info("所有GT：{}, 找到了：{}, 正确的：{}".format(gt_total_goal, get_total_goal, get_right_total_goal))
-
 
 
 if __name__ == '__main__':
@@ -451,7 +433,7 @@ if __name__ == '__main__':
 
     formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s : [line:%(lineno)d] - %(message)s")
 
-    file_handler = logging.FileHandler('log/sub/Substitution_detection2-22.log')
+    file_handler = logging.FileHandler('log/sub/Substitution_detection2-22-3.log')
     file_handler.setLevel(level=logging.INFO)
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)

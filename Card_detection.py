@@ -35,15 +35,15 @@ EVENT_DIR = "D:/dataset/event"
 # Output_big_frames_path = "D:/dataset/MAKE_OCR_DATA/small_frames"
 
 VIDEO_DIR = "D:/dataset/temp_videos"
-Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/sub_frames_soccernet_2-22"
-raw_Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/raw_sub_frames_soccernet_2-22"
-wrong_Output_big_frames_path = "D:/dataset/A_graduate_experiment/sub/wrong_sub_frames_soccernet_2-22"
+Output_big_frames_path = "D:/dataset/A_graduate_experiment/card/card_frames_soccernet_3-1"
+raw_Output_big_frames_path = "D:/dataset/A_graduate_experiment/card/raw_card_frames_soccernet_3-1"
+wrong_Output_big_frames_path = "D:/dataset/A_graduate_experiment/card/wrong_card_frames_soccernet_3-1"
 
 makedir(Output_big_frames_path)
 makedir(raw_Output_big_frames_path)
 makedir(wrong_Output_big_frames_path)
 
-socccernet_json_result_dir = "D:/dataset/A_graduate_experiment/sub/socccernet_Json_result_2-22"
+socccernet_json_result_dir = "D:/dataset/A_graduate_experiment/card/socccernet_Json_result_3-1"
 makedir(socccernet_json_result_dir)
 
 VIDEO_DIR = "D:/dataset/SoccerNet/SoccerNet_test_hq/"
@@ -53,7 +53,7 @@ import logging
 
 
 
-def get_substitution_index(VIDEO_DIR):
+def get_card_index(VIDEO_DIR):
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
     imgsz = 640
@@ -124,32 +124,32 @@ def get_substitution_index(VIDEO_DIR):
                                                                                                 frame_height))
 
                                     # big_h_index = int(frame_height * 6 / 10)
-                                    up_sub_index = int(frame_height * 2.5 / 10)
-                                    down_sub_index = int(frame_height * 6 / 10)
+                                    up_card_index = int(frame_height * 2.5 / 10)
+                                    down_card_index = int(frame_height * 6 / 10)
 
-                                    mid_sub_index = int(frame_width / 2)
+                                    mid_card_index = int(frame_width / 2)
                                     # x1_big_center = big_w_index - 50
                                     # x2_big_center = big_w_index + 50
 
 
 
                                     labels = json.load(open(os.path.join(game_path, "Labels-v2.json")))
-                                    gt_sub_frame_indexes = {}
-                                    sub_frame_indexes = []
+                                    gt_card_frame_indexes = {}
+                                    card_frame_indexes = []
                                     for annotation in labels["annotations"]:
-                                        if annotation["label"] == "Substitution" and annotation["gameTime"][0] == video_index[0]:
+                                        if annotation["label"] == "card" and annotation["gameTime"][0] == video_index[0]:
                                             label_time = annotation["gameTime"]
                                             goal_minutes = int(label_time[-5:-3])
                                             goal_seconds = int(label_time[-2::])
                                             gt_frame = fps * (goal_seconds + 60 * goal_minutes)
-                                            gt_sub_frame_indexes[gt_frame] = label_time
+                                            gt_card_frame_indexes[gt_frame] = label_time
 
 
-                                    logger.info("真实替换时间（帧号）：{}".format(gt_sub_frame_indexes))
-                                    if not gt_sub_frame_indexes:
+                                    logger.info("真实替换时间（帧号）：{}".format(gt_card_frame_indexes))
+                                    if not gt_card_frame_indexes:
                                         continue
 
-                                    gt_total_goal += len(gt_sub_frame_indexes)
+                                    gt_total_goal += len(gt_card_frame_indexes)
 
 
 
@@ -180,10 +180,10 @@ def get_substitution_index(VIDEO_DIR):
                                     # 检测框位置保持不变的次数
                                     stay_nums = 0
 
-                                    x_sub_center = 0
-                                    y_sub_center = 0
+                                    x_card_center = 0
+                                    y_card_center = 0
 
-                                    substitution_frame_index = []
+                                    card_frame_index = []
                                     while i < frame_count:
                                         # if i >= 27706:
                                         #     print("")
@@ -234,18 +234,18 @@ def get_substitution_index(VIDEO_DIR):
                                                     # Write results
                                                     for *xyxy, conf, cls in reversed(det):
 
-                                                        x_sub_center = int((xyxy[0] + xyxy[2]) / 2)
-                                                        y_sub_center = int((xyxy[1] + xyxy[3]) / 2)
+                                                        x_card_center = int((xyxy[0] + xyxy[2]) / 2)
+                                                        y_card_center = int((xyxy[1] + xyxy[3]) / 2)
 
                                                         # 1、置信度；2、检测框处于上部或者下部
-                                                        if conf >= 0.70 and ((y_sub_center <= up_sub_index and x_sub_center < mid_sub_index) or y_sub_center >= down_sub_index):
+                                                        if conf >= 0.70 and ((y_card_center <= up_card_index and x_card_center < mid_card_index) or y_card_center >= down_card_index):
 
 
-                                                            now_box_centers.append([x_sub_center, y_sub_center])
+                                                            now_box_centers.append([x_card_center, y_card_center])
 
                                                             find_flag = True
 
-                                                            # substitution_frame_index.append(i)
+                                                            # card_frame_index.append(i)
                                                             # logger.info results
                                                             for c in det[:, -1].unique():
                                                                 n = (det[:, -1] == c).sum()  # detections per class
@@ -290,14 +290,14 @@ def get_substitution_index(VIDEO_DIR):
                                                 if bias_flag:
                                                     stay_nums = 0
                                                 # 如果有连续3次没有偏移，大概率说明检测正确
-                                                if 2 <= stay_nums < 100 and (not sub_frame_indexes or (i - sub_frame_indexes[-1]) > fps * 10):
+                                                if 2 <= stay_nums < 100 and (not card_frame_indexes or (i - card_frame_indexes[-1]) > fps * 10):
 
-                                                    if y_sub_center <= up_sub_index:
-                                                        big_result, big_temp_result = get_ocr_result(videoCap, i, up_sub_index)
+                                                    if y_card_center <= up_card_index:
+                                                        big_result, big_temp_result = get_ocr_result(videoCap, i, up_card_index)
                                                         height_plus = 0
                                                     else:
-                                                        big_result, big_temp_result = get_ocr_result(videoCap, i, down_sub_index)
-                                                        height_plus = down_sub_index
+                                                        big_result, big_temp_result = get_ocr_result(videoCap, i, down_card_index)
+                                                        height_plus = down_card_index
 
                                                     if big_result:
                                                         has_str_flag = False
@@ -313,14 +313,14 @@ def get_substitution_index(VIDEO_DIR):
                                                             x_bias = int(frame_width * 2 / 5)
 
                                                             # 排除在中间位置，以及长度不合理的字符串
-                                                            if len(strr) > 3 and abs(y_sub_center - str_y_center) <= 6 \
-                                                                    and abs(x_sub_center - str_x_center) < x_bias:
+                                                            if len(strr) > 3 and abs(y_card_center - str_y_center) <= 6 \
+                                                                    and abs(x_card_center - str_x_center) < x_bias:
                                                                 has_str_flag = True
                                                                 break
                                                         if has_str_flag:
-                                                            json_game_result.append([half, i, "Substitution"])
+                                                            json_game_result.append([half, i, "card"])
 
-                                                            sub_frame_indexes.append(i)
+                                                            card_frame_indexes.append(i)
                                                             save_img_path = os.path.join(Output_big_frames_path,
                                                                                          video_name + "_" + str(i) + ".jpg")
                                                             cv.imwrite(save_img_path, temp_jpgframe)
@@ -336,9 +336,9 @@ def get_substitution_index(VIDEO_DIR):
 
                                                 # if find_nums == 4:
                                                 #     # 在一个检测到的序列（一次事件）内，保存第5次的帧数作为这个序列的帧数
-                                                #     json_game_result.append([half, i, "Substitution"])
+                                                #     json_game_result.append([half, i, "card"])
                                                 #
-                                                #     sub_frame_indexes.append(i)
+                                                #     card_frame_indexes.append(i)
                                                 #     save_img_path = os.path.join(Output_big_frames_path,
                                                 #                                  video_name + "_" + str(i) + ".jpg")
                                                 #     cv.imwrite(save_img_path, temp_jpgframe)
@@ -395,14 +395,14 @@ def get_substitution_index(VIDEO_DIR):
                                         else:
                                             i += 1
 
-                                    right_sub_result = []
-                                    rest_gt_sub = gt_sub_frame_indexes.copy()
-                                    for gt_idx in list(gt_sub_frame_indexes.keys()):
-                                        for idx in sub_frame_indexes:
+                                    right_card_result = []
+                                    rest_gt_card = gt_card_frame_indexes.copy()
+                                    for gt_idx in list(gt_card_frame_indexes.keys()):
+                                        for idx in card_frame_indexes:
                                             if -(fps * 60 * 1) < idx - gt_idx < fps * 60 * 2:
-                                                right_sub_result.append(str(gt_idx) + " -> " + str(idx))
-                                                if gt_idx in rest_gt_sub:
-                                                    del rest_gt_sub[gt_idx]
+                                                right_card_result.append(str(gt_idx) + " -> " + str(idx))
+                                                if gt_idx in rest_gt_card:
+                                                    del rest_gt_card[gt_idx]
                                             else:
                                                 save_wrong_img_path = os.path.join(wrong_Output_big_frames_path,
                                                                                  video_name + "_" + str(i) + ".jpg")
@@ -410,13 +410,13 @@ def get_substitution_index(VIDEO_DIR):
 
                                     logger.info("*********************************")
                                     logger.info("本视频总结：")
-                                    logger.info("检测正确结果：{}".format(right_sub_result))
+                                    logger.info("检测正确结果：{}".format(right_card_result))
                                     logger.info(
-                                        "GT : {}， 共找到：{}， 其中正确的：{}".format(len(gt_sub_frame_indexes), len(sub_frame_indexes),
-                                                                           len(right_sub_result)))
-                                    logger.info("没被找到的：{}".format(rest_gt_sub))
+                                        "GT : {}， 共找到：{}， 其中正确的：{}".format(len(gt_card_frame_indexes), len(card_frame_indexes),
+                                                                           len(right_card_result)))
+                                    logger.info("没被找到的：{}".format(rest_gt_card))
 
-                                    get_right_total_goal += len(gt_sub_frame_indexes) - len(rest_gt_sub)
+                                    get_right_total_goal += len(gt_card_frame_indexes) - len(rest_gt_card)
 
 
                                     time2 = time.time()
@@ -446,12 +446,12 @@ def get_substitution_index(VIDEO_DIR):
 
 if __name__ == '__main__':
 
-    logger = logging.getLogger('sub')
+    logger = logging.getLogger('card')
     logger.setLevel(level=logging.DEBUG)
 
     formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s : [line:%(lineno)d] - %(message)s")
 
-    file_handler = logging.FileHandler('log/sub/Substitution_detection2-22.log')
+    file_handler = logging.FileHandler('log/card/card_detection3-1.log')
     file_handler.setLevel(level=logging.INFO)
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
@@ -462,8 +462,8 @@ if __name__ == '__main__':
     logger.addHandler(stream_handler)
 
     parser = argparse.ArgumentParser()
-    # weights = 'hpc_sub_model/best_217.pt'
-    parser.add_argument('--weights', nargs='+', type=str, default='hpc_sub_model/best_221_300ep.pt',
+    # weights = 'hpc_card_model/best_217.pt'
+    parser.add_argument('--weights', nargs='+', type=str, default='hpc_card_model/card_301_best_200ep.pt',
                         help='model.pt path(s)')
     parser.add_argument('--source', type=str, default='D:/dataset/video_5/soccer_1314_video.mp4',
                         help='source')  # file/folder, 0 for webcam
@@ -485,5 +485,5 @@ if __name__ == '__main__':
     parser.add_argument('--no-trace', action='store_true', help='don`t trace model')
     opt = parser.parse_args()
     logger.info(opt)
-    get_substitution_index(VIDEO_DIR)
+    get_card_index(VIDEO_DIR)
     # test_playback_algo()

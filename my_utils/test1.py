@@ -79,7 +79,14 @@ from SoccerNet.Evaluation.ActionSpotting import evaluate
 # results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 
 
-l = [123, 35, 4653]
-print(l)
-l.remove(55)
-print(l)
+# l = [123, 35, 4653]
+# print(l)
+# l.remove(55)
+# print(l)
+
+team_name = []
+f = open("../team_name_full.txt", "r")
+for line in f:
+    line = line[:-1]
+    print(line)
+    team_name.append(line)
