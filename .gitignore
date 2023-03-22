@@ -2,4 +2,5 @@
 venv/
 padOCR_inference/
 hpc_sub_model/
+hpc_card_model/
 runs/

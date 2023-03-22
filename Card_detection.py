@@ -137,12 +137,12 @@ def get_card_index(VIDEO_DIR):
                                     gt_card_frame_indexes = {}
                                     card_frame_indexes = []
                                     for annotation in labels["annotations"]:
-                                        if annotation["label"] == "card" and annotation["gameTime"][0] == video_index[0]:
+                                        if "card" in annotation["label"] and annotation["gameTime"][0] == video_index[0]:
                                             label_time = annotation["gameTime"]
                                             goal_minutes = int(label_time[-5:-3])
                                             goal_seconds = int(label_time[-2::])
                                             gt_frame = fps * (goal_seconds + 60 * goal_minutes)
-                                            gt_card_frame_indexes[gt_frame] = label_time
+                                            gt_card_frame_indexes[gt_frame] = label_time + "_" + annotation["label"]
 
 
                                     logger.info("真实替换时间（帧号）：{}".format(gt_card_frame_indexes))

@@ -1,0 +1,13 @@
+{"teams": [
+    {"France": [
+        {"Goal": [
+            {"player": "Griezmann", "time": "13'", "type": "Penalty kick"},
+            {"player": "Pavard", "time": "57'", "type": "normal"},
+            {"player": "Mbappe", "time": "64'", "type": "normal"},
+            {"player": "Mbappe", "time": "68'", "type": "normal"}]}]},
+    {"AGRNTINA": [
+       {"Goal": [
+            {"player": "Di Maria", "time": "41'", "type": "normal"},
+            {"player": "Mercado", "time": "48'", "type": "normal"},
+            {"player": "Aguero", "time": "90'+3'", "type": "additional time"}]}]}
+]}
